@@ -44,5 +44,18 @@ void initDatabase(sqlite3* db){
 
     rc = sqlite3_exec(db, insertFlights, nullptr, nullptr, nullptr);
 
+    const char* bookings = R"(
+        CREATE TABLE IF NOT EXISTS bookings (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            flight_id TEXT NOT NULL,
+            passenger_name TEXT NOT NULL,
+            email TEXT NOT NULL,
+            seats INTEGER NOT NULL,
+            booking_date NOT NULL,
+            FOREIGN KEY(flight_id) REFERENCES flights(id)
+        );
+    )";
+
+    sqlite3_exec(db, bookings, nullptr, nullptr, nullptr);
 
 }

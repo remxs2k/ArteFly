@@ -1,0 +1,3 @@
+/home/remxs2k/UMFST/Artefly/FlightBookingServer/build/CMakeFiles/server.dir
+/home/remxs2k/UMFST/Artefly/FlightBookingServer/build/CMakeFiles/edit_cache.dir
+/home/remxs2k/UMFST/Artefly/FlightBookingServer/build/CMakeFiles/rebuild_cache.dir

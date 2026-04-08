@@ -32,6 +32,7 @@ void initDatabase(sqlite3* db){
 
     const char* insertFlights = R"(
         INSERT INTO flights(from_city, to_city, departure, arrival, price, airline, seats) VALUES
+        ('London',    'Paris',     '01:00', '03:00', 200.0, 'Lufthansa', 60),
         ('London',    'Paris',     '08:00', '10:00', 120.00, 'WizzAir',  50),
         ('London',    'Paris',     '14:00', '16:00',  95.00, 'EasyJet',    30),
         ('Paris',     'Rome',      '09:00', '11:30', 150.00, 'Tarom',   40),

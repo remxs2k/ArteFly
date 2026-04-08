@@ -26,7 +26,7 @@ int main(){
         auto from = req.url_params.get("from");
         auto to = req.url_params.get("to");
 
-        if(!from){
+        if(!from || !to){
             return crow::response(400, "Missing");
         }
 
@@ -58,6 +58,9 @@ int main(){
         }
 
         sqlite3_finalize(stmt);
+        crow::response res(result.dump());
+        res.add_header("Content-Type", "application/json");
+        return res;
 
     });
 

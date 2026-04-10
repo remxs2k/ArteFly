@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/remxs2k/UMFST/Artefly/FlightBookingServer/src/db.cpp" "CMakeFiles/server.dir/src/db.cpp.o" "gcc" "CMakeFiles/server.dir/src/db.cpp.o.d"
   "/home/remxs2k/UMFST/Artefly/FlightBookingServer/src/main.cpp" "CMakeFiles/server.dir/src/main.cpp.o" "gcc" "CMakeFiles/server.dir/src/main.cpp.o.d"
+  "/home/remxs2k/UMFST/Artefly/FlightBookingServer/src/serpapi.cpp" "CMakeFiles/server.dir/src/serpapi.cpp.o" "gcc" "CMakeFiles/server.dir/src/serpapi.cpp.o.d"
   "" "server" "gcc" "CMakeFiles/server.dir/link.d"
   )
 

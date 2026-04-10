@@ -11,4 +11,5 @@ public class Flight implements Serializable {
     public double price;
     public String airline;
     public int seats;
+    public int duration;
 }

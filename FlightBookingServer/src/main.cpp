@@ -1,6 +1,8 @@
 #include "crow.h"
 #include "json.hpp"
 #include "db.h"
+#include "airports.h"
+#include "serpapi.h"
 #include <sqlite3.h>
 
 using namespace std;
@@ -24,44 +26,62 @@ int main(){
     CROW_ROUTE(app, "/search")
     ([&db](const crow::request& req){
         auto from = req.url_params.get("from");
-        auto to = req.url_params.get("to");
+        auto to   = req.url_params.get("to");
+        auto date = req.url_params.get("date");
 
-        if(!from || !to){
-            return crow::response(400, "Missing");
+        if(!from || !to || !date){
+            return crow::response(400, "Missing parameters");
         }
 
-        const char* query = R"(
-            SELECT id, from_city, to_city, departure, arrival, price, airline, seats
-            FROM flights
-            WHERE from_city = ? AND to_city = ?
-        )";
 
-        sqlite3_stmt* stmt;
-        sqlite3_prepare_v2(db, query, -1, &stmt, nullptr);
-        sqlite3_bind_text(stmt, 1, from, -1, SQLITE_STATIC);
-        sqlite3_bind_text(stmt, 2, to,   -1, SQLITE_STATIC);
+        std::string fromCode = getIATA(from);
+        std::string toCode   = getIATA(to);
 
+        if(fromCode.empty() || toCode.empty()){
+            return crow::response(400, "Unknown city name");
+        }
+
+    
+        const char* apiKey = std::getenv("SERPAPI_KEY");
+        if(!apiKey){
+            return crow::response(500, "API key not configured");
+        }
+        //std::string rawResponse = searchFlights(fromCode, toCode, date, apiKey);
+
+        std::string rawResponse = searchFlights(fromCode, toCode, date, apiKey);
+        std::cout << "SerpApi raw response: " << rawResponse << std::endl;
+
+        // Parse the response
+        auto serpData = json::parse(rawResponse, nullptr, false);
+        if(serpData.is_discarded()){
+            return crow::response(500, "Failed to parse flight data");
+        }
+
+        // Extract best_flights or other_flights
         json result;
         result["flights"] = json::array();
 
-        while(sqlite3_step(stmt) == SQLITE_ROW){
-            json flight;
-            flight["id"] = sqlite3_column_int(stmt, 0);
-            flight["from"] = (const char*)sqlite3_column_text(stmt, 1);
-            flight["to"] = (const char*)sqlite3_column_text(stmt, 2);
-            flight["departure"] = (const char*)sqlite3_column_text(stmt, 3);
-            flight["arrival"] = (const char*)sqlite3_column_text(stmt, 4);
-            flight["price"] = sqlite3_column_double(stmt, 5);
-            flight["airline"] = (const char*) sqlite3_column_text(stmt, 6);
-            flight["seats"] = sqlite3_column_int(stmt, 7);
-            result["flights"].push_back(flight);
-        }
+        auto extractFlights = [&](const std::string& key){
+            if(!serpData.contains(key)) return;
+            for(auto& f : serpData[key]){
+                json flight;
+                flight["price"]    = f.value("price", 0);
+                flight["airline"]  = f["flights"][0].value("airline", "Unknown");
+                flight["from"]     = f["flights"][0].value("departure_airport", json::object()).value("name", from);
+                flight["to"]       = f["flights"][0].value("arrival_airport", json::object()).value("name", to);
+                flight["departure"]= f["flights"][0].value("departure_airport", json::object()).value("time", "");
+                flight["arrival"]  = f["flights"][0].value("arrival_airport", json::object()).value("time", "");
+                flight["duration"] = f.value("total_duration", 0);
+                result["flights"].push_back(flight);
+            }
+        };
 
-        sqlite3_finalize(stmt);
+        extractFlights("best_flights");
+        extractFlights("other_flights");
+
         crow::response res(result.dump());
         res.add_header("Content-Type", "application/json");
         return res;
-
     });
 
     CROW_ROUTE(app, "/booking").methods("POST"_method)

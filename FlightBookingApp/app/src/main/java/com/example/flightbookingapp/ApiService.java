@@ -12,6 +12,7 @@ public interface ApiService {
     @GET("search")
     Call<FlightResponse> searchFlights(
             @Query("from") String from,
-            @Query("to") String to
+            @Query("to") String to,
+            @Query("date") String date
     );
 }

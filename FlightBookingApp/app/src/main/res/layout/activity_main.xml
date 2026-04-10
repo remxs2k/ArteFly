@@ -28,6 +28,13 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"/>
 
+    <EditText
+        android:id="@+id/etDate"
+        android:hint="Departure date (YYYY-MM-DD)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"/>
+
     <Button
         android:id="@+id/btnSearch"
         android:text="Search Flights"

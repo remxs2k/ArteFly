@@ -3,6 +3,7 @@ project(FlightBookingServer)
 
 set(CMAKE_CXX_STANDARD 17)
 
+find_package(CURL REQUIRED)
 find_package(Boost REQUIRED)
 find_package(OpenSSL REQUIRED)
 find_package(Threads REQUIRED)
@@ -15,12 +16,13 @@ include_directories(
 )
 
 add_definitions(-DCROW_USE_BOOST)
-add_executable(server src/main.cpp src/db.cpp)
+add_executable(server src/main.cpp src/db.cpp src/serpapi.cpp)
 
 target_link_libraries(server
     Threads::Threads
     OpenSSL::SSL
     OpenSSL::Crypto
     SQLite::SQLite3
+    CURL::libcurl
     z
 )

@@ -177,6 +177,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/serpapi.o: src/serpapi.cpp.o
+.PHONY : src/serpapi.o
+
+# target to build an object file
+src/serpapi.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/serpapi.cpp.o
+.PHONY : src/serpapi.cpp.o
+
+src/serpapi.i: src/serpapi.cpp.i
+.PHONY : src/serpapi.i
+
+# target to preprocess a source file
+src/serpapi.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/serpapi.cpp.i
+.PHONY : src/serpapi.cpp.i
+
+src/serpapi.s: src/serpapi.cpp.s
+.PHONY : src/serpapi.s
+
+# target to generate assembly for a file
+src/serpapi.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/serpapi.cpp.s
+.PHONY : src/serpapi.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +216,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/serpapi.o"
+	@echo "... src/serpapi.i"
+	@echo "... src/serpapi.s"
 .PHONY : help
 
 

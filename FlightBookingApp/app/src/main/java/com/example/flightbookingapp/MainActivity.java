@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
         EditText etFrom = findViewById(R.id.etFrom);
         EditText etTo   = findViewById(R.id.etTo);
+        EditText etDate = findViewById(R.id.etDate);
         Button btnSearch = findViewById(R.id.btnSearch);
 
         ApiService api = ApiClient.getClient().create(ApiService.class);
@@ -37,9 +38,14 @@ public class MainActivity extends AppCompatActivity {
         btnSearch.setOnClickListener(v -> {
             String from = etFrom.getText().toString().trim();
             String to   = etTo.getText().toString().trim();
+            String date = etDate.getText().toString().trim();
 
+            if(from.isEmpty() || to.isEmpty() || date.isEmpty()){
+                Toast.makeText(this, "Please fill in all fields", Toast.LENGTH_SHORT).show();
+                return;
+            }
 
-            api.searchFlights(from, to).enqueue(new Callback<FlightResponse>() {
+            api.searchFlights(from, to, date).enqueue(new Callback<FlightResponse>() {
                 @Override
                 public void onResponse(Call<FlightResponse> call, Response<FlightResponse> response) {
                     if(response.isSuccessful() && response.body() != null){

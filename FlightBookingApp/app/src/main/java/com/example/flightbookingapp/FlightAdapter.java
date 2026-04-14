@@ -26,6 +26,8 @@ public class FlightAdapter extends RecyclerView.Adapter<FlightAdapter.FlightView
         return new FlightViewHolder(view);
     }
 
+
+
     @Override
     public void onBindViewHolder(@NonNull FlightViewHolder holder, int position) {
         Flight flight = flights.get(position);
@@ -37,6 +39,10 @@ public class FlightAdapter extends RecyclerView.Adapter<FlightAdapter.FlightView
 
     @Override
     public int getItemCount() {
+
+        if (flights == null) {
+            return 0;
+        }
         return flights.size();
     }
 

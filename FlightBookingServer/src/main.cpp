@@ -74,12 +74,12 @@ int main(){
                 if(depId != fromCode || arrId != toCode) continue;
 
                 json flight;
-                flight["price"]    = f.value("price", 0);
-                flight["airline"]  = f["flights"][0].value("airline", "Unknown");
-                flight["from"]     = f["flights"][0].value("departure_airport", json::object()).value("name", from);
-                flight["to"]       = f["flights"][0].value("arrival_airport", json::object()).value("name", to);
-                flight["departure"]= f["flights"][0].value("departure_airport", json::object()).value("time", "");
-                flight["arrival"]  = f["flights"][0].value("arrival_airport", json::object()).value("time", "");
+                flight["price"] = f.value("price", 0);
+                flight["airline"] = f["flights"][0].value("airline", "Unknown");
+                flight["from"] = f["flights"][0].value("departure_airport", json::object()).value("name", from);
+                flight["to"] = f["flights"][0].value("arrival_airport", json::object()).value("name", to);
+                flight["departure"] = f["flights"][0].value("departure_airport", json::object()).value("time", "");
+                flight["arrival"] = f["flights"][0].value("arrival_airport", json::object()).value("time", "");
                 flight["duration"] = f.value("total_duration", 0);
                 result["flights"].push_back(flight);
             }

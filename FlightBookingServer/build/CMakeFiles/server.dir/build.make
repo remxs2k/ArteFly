@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/remxs2k/UMFST/Artefly/FlightBookingServer
+CMAKE_SOURCE_DIR = /home/remxs2k/UMFST/ArteFly/FlightBookingServer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/remxs2k/UMFST/Artefly/FlightBookingServer/build
+CMAKE_BINARY_DIR = /home/remxs2k/UMFST/ArteFly/FlightBookingServer/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/server.dir/depend.make
@@ -73,46 +73,46 @@ CMakeFiles/server.dir/codegen:
 .PHONY : CMakeFiles/server.dir/codegen
 
 CMakeFiles/server.dir/src/main.cpp.o: CMakeFiles/server.dir/flags.make
-CMakeFiles/server.dir/src/main.cpp.o: /home/remxs2k/UMFST/Artefly/FlightBookingServer/src/main.cpp
+CMakeFiles/server.dir/src/main.cpp.o: /home/remxs2k/UMFST/ArteFly/FlightBookingServer/src/main.cpp
 CMakeFiles/server.dir/src/main.cpp.o: CMakeFiles/server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/remxs2k/UMFST/Artefly/FlightBookingServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/server.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/src/main.cpp.o -MF CMakeFiles/server.dir/src/main.cpp.o.d -o CMakeFiles/server.dir/src/main.cpp.o -c /home/remxs2k/UMFST/Artefly/FlightBookingServer/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/remxs2k/UMFST/ArteFly/FlightBookingServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/server.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/src/main.cpp.o -MF CMakeFiles/server.dir/src/main.cpp.o.d -o CMakeFiles/server.dir/src/main.cpp.o -c /home/remxs2k/UMFST/ArteFly/FlightBookingServer/src/main.cpp
 
 CMakeFiles/server.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/server.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/remxs2k/UMFST/Artefly/FlightBookingServer/src/main.cpp > CMakeFiles/server.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/remxs2k/UMFST/ArteFly/FlightBookingServer/src/main.cpp > CMakeFiles/server.dir/src/main.cpp.i
 
 CMakeFiles/server.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/server.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/remxs2k/UMFST/Artefly/FlightBookingServer/src/main.cpp -o CMakeFiles/server.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/remxs2k/UMFST/ArteFly/FlightBookingServer/src/main.cpp -o CMakeFiles/server.dir/src/main.cpp.s
 
 CMakeFiles/server.dir/src/db.cpp.o: CMakeFiles/server.dir/flags.make
-CMakeFiles/server.dir/src/db.cpp.o: /home/remxs2k/UMFST/Artefly/FlightBookingServer/src/db.cpp
+CMakeFiles/server.dir/src/db.cpp.o: /home/remxs2k/UMFST/ArteFly/FlightBookingServer/src/db.cpp
 CMakeFiles/server.dir/src/db.cpp.o: CMakeFiles/server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/remxs2k/UMFST/Artefly/FlightBookingServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/server.dir/src/db.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/src/db.cpp.o -MF CMakeFiles/server.dir/src/db.cpp.o.d -o CMakeFiles/server.dir/src/db.cpp.o -c /home/remxs2k/UMFST/Artefly/FlightBookingServer/src/db.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/remxs2k/UMFST/ArteFly/FlightBookingServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/server.dir/src/db.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/src/db.cpp.o -MF CMakeFiles/server.dir/src/db.cpp.o.d -o CMakeFiles/server.dir/src/db.cpp.o -c /home/remxs2k/UMFST/ArteFly/FlightBookingServer/src/db.cpp
 
 CMakeFiles/server.dir/src/db.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/server.dir/src/db.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/remxs2k/UMFST/Artefly/FlightBookingServer/src/db.cpp > CMakeFiles/server.dir/src/db.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/remxs2k/UMFST/ArteFly/FlightBookingServer/src/db.cpp > CMakeFiles/server.dir/src/db.cpp.i
 
 CMakeFiles/server.dir/src/db.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/server.dir/src/db.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/remxs2k/UMFST/Artefly/FlightBookingServer/src/db.cpp -o CMakeFiles/server.dir/src/db.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/remxs2k/UMFST/ArteFly/FlightBookingServer/src/db.cpp -o CMakeFiles/server.dir/src/db.cpp.s
 
 CMakeFiles/server.dir/src/serpapi.cpp.o: CMakeFiles/server.dir/flags.make
-CMakeFiles/server.dir/src/serpapi.cpp.o: /home/remxs2k/UMFST/Artefly/FlightBookingServer/src/serpapi.cpp
+CMakeFiles/server.dir/src/serpapi.cpp.o: /home/remxs2k/UMFST/ArteFly/FlightBookingServer/src/serpapi.cpp
 CMakeFiles/server.dir/src/serpapi.cpp.o: CMakeFiles/server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/remxs2k/UMFST/Artefly/FlightBookingServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/server.dir/src/serpapi.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/src/serpapi.cpp.o -MF CMakeFiles/server.dir/src/serpapi.cpp.o.d -o CMakeFiles/server.dir/src/serpapi.cpp.o -c /home/remxs2k/UMFST/Artefly/FlightBookingServer/src/serpapi.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/remxs2k/UMFST/ArteFly/FlightBookingServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/server.dir/src/serpapi.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/src/serpapi.cpp.o -MF CMakeFiles/server.dir/src/serpapi.cpp.o.d -o CMakeFiles/server.dir/src/serpapi.cpp.o -c /home/remxs2k/UMFST/ArteFly/FlightBookingServer/src/serpapi.cpp
 
 CMakeFiles/server.dir/src/serpapi.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/server.dir/src/serpapi.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/remxs2k/UMFST/Artefly/FlightBookingServer/src/serpapi.cpp > CMakeFiles/server.dir/src/serpapi.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/remxs2k/UMFST/ArteFly/FlightBookingServer/src/serpapi.cpp > CMakeFiles/server.dir/src/serpapi.cpp.i
 
 CMakeFiles/server.dir/src/serpapi.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/server.dir/src/serpapi.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/remxs2k/UMFST/Artefly/FlightBookingServer/src/serpapi.cpp -o CMakeFiles/server.dir/src/serpapi.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/remxs2k/UMFST/ArteFly/FlightBookingServer/src/serpapi.cpp -o CMakeFiles/server.dir/src/serpapi.cpp.s
 
 # Object files for target server
 server_OBJECTS = \
@@ -134,7 +134,7 @@ server: /usr/lib/libsqlite3.so
 server: /usr/lib/libcurl.so
 server: /usr/lib/libcurl.so
 server: CMakeFiles/server.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/remxs2k/UMFST/Artefly/FlightBookingServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/remxs2k/UMFST/ArteFly/FlightBookingServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable server"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/server.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -146,6 +146,6 @@ CMakeFiles/server.dir/clean:
 .PHONY : CMakeFiles/server.dir/clean
 
 CMakeFiles/server.dir/depend:
-	cd /home/remxs2k/UMFST/Artefly/FlightBookingServer/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/remxs2k/UMFST/Artefly/FlightBookingServer /home/remxs2k/UMFST/Artefly/FlightBookingServer /home/remxs2k/UMFST/Artefly/FlightBookingServer/build /home/remxs2k/UMFST/Artefly/FlightBookingServer/build /home/remxs2k/UMFST/Artefly/FlightBookingServer/build/CMakeFiles/server.dir/DependInfo.cmake "--color=$(COLOR)" server
+	cd /home/remxs2k/UMFST/ArteFly/FlightBookingServer/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/remxs2k/UMFST/ArteFly/FlightBookingServer /home/remxs2k/UMFST/ArteFly/FlightBookingServer /home/remxs2k/UMFST/ArteFly/FlightBookingServer/build /home/remxs2k/UMFST/ArteFly/FlightBookingServer/build /home/remxs2k/UMFST/ArteFly/FlightBookingServer/build/CMakeFiles/server.dir/DependInfo.cmake "--color=$(COLOR)" server
 .PHONY : CMakeFiles/server.dir/depend
 

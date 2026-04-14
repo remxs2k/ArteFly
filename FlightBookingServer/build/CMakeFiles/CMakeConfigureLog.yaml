@@ -20,22 +20,30 @@ events:
     names:
       - "uname"
     candidate_directories:
-      - "/usr/local/sbin/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/local/bin/"
       - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
-      - "/bin/"
     searched_directories:
-      - "/usr/local/sbin/uname"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/uname"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/uname"
       - "/usr/local/bin/uname"
     found: "/usr/bin/uname"
     search_context:
       ENV{PATH}:
-        - "/usr/local/sbin"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -45,7 +53,7 @@ events:
       - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:212 (message)"
       - "CMakeLists.txt:2 (project)"
     message: |
-      The system is: Linux - 6.19.10-arch1-1 - x86_64
+      The system is: Linux - 6.19.11-1-cachyos - x86_64
   -
     kind: "find-v1"
     backtrace:
@@ -67,27 +75,39 @@ events:
       - "make"
       - "smake"
     candidate_directories:
-      - "/usr/local/sbin/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/local/bin/"
       - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
     searched_directories:
-      - "/usr/local/sbin/gmake"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gmake"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/gmake"
       - "/usr/local/bin/gmake"
       - "/usr/bin/gmake"
+      - "/bin/gmake"
+      - "/usr/local/sbin/gmake"
       - "/usr/bin/site_perl/gmake"
       - "/usr/bin/vendor_perl/gmake"
       - "/usr/bin/core_perl/gmake"
-      - "/usr/local/sbin/make"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/make"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/make"
       - "/usr/local/bin/make"
     found: "/usr/bin/make"
     search_context:
       ENV{PATH}:
-        - "/usr/local/sbin"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -117,21 +137,30 @@ events:
       - "icx"
       - "clang"
     candidate_directories:
-      - "/usr/local/sbin/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/local/bin/"
       - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
     searched_directories:
-      - "/usr/local/sbin/cc"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/cc"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/cc"
       - "/usr/local/bin/cc"
     found: "/usr/bin/cc"
     search_context:
       ENV{PATH}:
-        - "/usr/local/sbin"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -162,9 +191,14 @@ events:
     found: "/usr/share/cmake/Modules/CMakeCCompilerId.c.in"
     search_context:
       ENV{PATH}:
-        - "/usr/local/sbin"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -188,7 +222,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
       
       The C compiler identification is GNU, found in:
-        /home/remxs2k/UMFST/Artefly/FlightBookingServer/build/CMakeFiles/4.3.1/CompilerIdC/a.out
+        /home/remxs2k/UMFST/ArteFly/FlightBookingServer/build/CMakeFiles/4.3.1/CompilerIdC/a.out
       
   -
     kind: "find-v1"
@@ -211,17 +245,25 @@ events:
       - "ar"
     candidate_directories:
       - "/usr/bin/"
-      - "/usr/local/sbin/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
     found: "/usr/bin/ar"
     search_context:
       ENV{PATH}:
-        - "/usr/local/sbin"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -246,17 +288,25 @@ events:
       - "ranlib"
     candidate_directories:
       - "/usr/bin/"
-      - "/usr/local/sbin/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
     found: "/usr/bin/ranlib"
     search_context:
       ENV{PATH}:
-        - "/usr/local/sbin"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -281,17 +331,25 @@ events:
       - "strip"
     candidate_directories:
       - "/usr/bin/"
-      - "/usr/local/sbin/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
     found: "/usr/bin/strip"
     search_context:
       ENV{PATH}:
-        - "/usr/local/sbin"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -316,17 +374,25 @@ events:
       - "ld"
     candidate_directories:
       - "/usr/bin/"
-      - "/usr/local/sbin/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
     found: "/usr/bin/ld"
     search_context:
       ENV{PATH}:
-        - "/usr/local/sbin"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -351,17 +417,25 @@ events:
       - "nm"
     candidate_directories:
       - "/usr/bin/"
-      - "/usr/local/sbin/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
     found: "/usr/bin/nm"
     search_context:
       ENV{PATH}:
-        - "/usr/local/sbin"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -386,17 +460,25 @@ events:
       - "objdump"
     candidate_directories:
       - "/usr/bin/"
-      - "/usr/local/sbin/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
     found: "/usr/bin/objdump"
     search_context:
       ENV{PATH}:
-        - "/usr/local/sbin"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -421,17 +503,25 @@ events:
       - "objcopy"
     candidate_directories:
       - "/usr/bin/"
-      - "/usr/local/sbin/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
     found: "/usr/bin/objcopy"
     search_context:
       ENV{PATH}:
-        - "/usr/local/sbin"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -456,17 +546,25 @@ events:
       - "readelf"
     candidate_directories:
       - "/usr/bin/"
-      - "/usr/local/sbin/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
     found: "/usr/bin/readelf"
     search_context:
       ENV{PATH}:
-        - "/usr/local/sbin"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -491,24 +589,35 @@ events:
       - "dlltool"
     candidate_directories:
       - "/usr/bin/"
-      - "/usr/local/sbin/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
     searched_directories:
       - "/usr/bin/dlltool"
-      - "/usr/local/sbin/dlltool"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/dlltool"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/dlltool"
       - "/usr/local/bin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/local/sbin/dlltool"
       - "/usr/bin/site_perl/dlltool"
       - "/usr/bin/vendor_perl/dlltool"
       - "/usr/bin/core_perl/dlltool"
     found: false
     search_context:
       ENV{PATH}:
-        - "/usr/local/sbin"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -533,17 +642,25 @@ events:
       - "addr2line"
     candidate_directories:
       - "/usr/bin/"
-      - "/usr/local/sbin/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
     found: "/usr/bin/addr2line"
     search_context:
       ENV{PATH}:
-        - "/usr/local/sbin"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -568,24 +685,35 @@ events:
       - "tapi"
     candidate_directories:
       - "/usr/bin/"
-      - "/usr/local/sbin/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
     searched_directories:
       - "/usr/bin/tapi"
-      - "/usr/local/sbin/tapi"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/tapi"
       - "/usr/local/bin/tapi"
+      - "/bin/tapi"
+      - "/usr/local/sbin/tapi"
       - "/usr/bin/site_perl/tapi"
       - "/usr/bin/vendor_perl/tapi"
       - "/usr/bin/core_perl/tapi"
     found: false
     search_context:
       ENV{PATH}:
-        - "/usr/local/sbin"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -613,36 +741,53 @@ events:
       - "gcc-ar"
     candidate_directories:
       - "/usr/bin/"
-      - "/usr/local/sbin/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
     searched_directories:
       - "/usr/bin/gcc-ar-15.2"
-      - "/usr/local/sbin/gcc-ar-15.2"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-15.2"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-15.2"
       - "/usr/local/bin/gcc-ar-15.2"
+      - "/bin/gcc-ar-15.2"
+      - "/usr/local/sbin/gcc-ar-15.2"
       - "/usr/bin/site_perl/gcc-ar-15.2"
       - "/usr/bin/vendor_perl/gcc-ar-15.2"
       - "/usr/bin/core_perl/gcc-ar-15.2"
       - "/usr/bin/gcc-ar-15"
-      - "/usr/local/sbin/gcc-ar-15"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-15"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-15"
       - "/usr/local/bin/gcc-ar-15"
+      - "/bin/gcc-ar-15"
+      - "/usr/local/sbin/gcc-ar-15"
       - "/usr/bin/site_perl/gcc-ar-15"
       - "/usr/bin/vendor_perl/gcc-ar-15"
       - "/usr/bin/core_perl/gcc-ar-15"
       - "/usr/bin/gcc-ar15"
-      - "/usr/local/sbin/gcc-ar15"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar15"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar15"
       - "/usr/local/bin/gcc-ar15"
+      - "/bin/gcc-ar15"
+      - "/usr/local/sbin/gcc-ar15"
       - "/usr/bin/site_perl/gcc-ar15"
       - "/usr/bin/vendor_perl/gcc-ar15"
       - "/usr/bin/core_perl/gcc-ar15"
     found: "/usr/bin/gcc-ar"
     search_context:
       ENV{PATH}:
-        - "/usr/local/sbin"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -670,36 +815,53 @@ events:
       - "gcc-ranlib"
     candidate_directories:
       - "/usr/bin/"
-      - "/usr/local/sbin/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
     searched_directories:
       - "/usr/bin/gcc-ranlib-15.2"
-      - "/usr/local/sbin/gcc-ranlib-15.2"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-15.2"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-15.2"
       - "/usr/local/bin/gcc-ranlib-15.2"
+      - "/bin/gcc-ranlib-15.2"
+      - "/usr/local/sbin/gcc-ranlib-15.2"
       - "/usr/bin/site_perl/gcc-ranlib-15.2"
       - "/usr/bin/vendor_perl/gcc-ranlib-15.2"
       - "/usr/bin/core_perl/gcc-ranlib-15.2"
       - "/usr/bin/gcc-ranlib-15"
-      - "/usr/local/sbin/gcc-ranlib-15"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-15"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-15"
       - "/usr/local/bin/gcc-ranlib-15"
+      - "/bin/gcc-ranlib-15"
+      - "/usr/local/sbin/gcc-ranlib-15"
       - "/usr/bin/site_perl/gcc-ranlib-15"
       - "/usr/bin/vendor_perl/gcc-ranlib-15"
       - "/usr/bin/core_perl/gcc-ranlib-15"
       - "/usr/bin/gcc-ranlib15"
-      - "/usr/local/sbin/gcc-ranlib15"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib15"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib15"
       - "/usr/local/bin/gcc-ranlib15"
+      - "/bin/gcc-ranlib15"
+      - "/usr/local/sbin/gcc-ranlib15"
       - "/usr/bin/site_perl/gcc-ranlib15"
       - "/usr/bin/vendor_perl/gcc-ranlib15"
       - "/usr/bin/core_perl/gcc-ranlib15"
     found: "/usr/bin/gcc-ranlib"
     search_context:
       ENV{PATH}:
-        - "/usr/local/sbin"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -736,9 +898,14 @@ events:
     found: "/usr/bin/c++"
     search_context:
       ENV{PATH}:
-        - "/usr/local/sbin"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -769,9 +936,14 @@ events:
     found: "/usr/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
-        - "/usr/local/sbin"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -795,7 +967,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is GNU, found in:
-        /home/remxs2k/UMFST/Artefly/FlightBookingServer/build/CMakeFiles/4.3.1/CompilerIdCXX/a.out
+        /home/remxs2k/UMFST/ArteFly/FlightBookingServer/build/CMakeFiles/4.3.1/CompilerIdCXX/a.out
       
   -
     kind: "find-v1"
@@ -821,36 +993,53 @@ events:
       - "gcc-ar"
     candidate_directories:
       - "/usr/bin/"
-      - "/usr/local/sbin/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
     searched_directories:
       - "/usr/bin/gcc-ar-15.2"
-      - "/usr/local/sbin/gcc-ar-15.2"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-15.2"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-15.2"
       - "/usr/local/bin/gcc-ar-15.2"
+      - "/bin/gcc-ar-15.2"
+      - "/usr/local/sbin/gcc-ar-15.2"
       - "/usr/bin/site_perl/gcc-ar-15.2"
       - "/usr/bin/vendor_perl/gcc-ar-15.2"
       - "/usr/bin/core_perl/gcc-ar-15.2"
       - "/usr/bin/gcc-ar-15"
-      - "/usr/local/sbin/gcc-ar-15"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-15"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-15"
       - "/usr/local/bin/gcc-ar-15"
+      - "/bin/gcc-ar-15"
+      - "/usr/local/sbin/gcc-ar-15"
       - "/usr/bin/site_perl/gcc-ar-15"
       - "/usr/bin/vendor_perl/gcc-ar-15"
       - "/usr/bin/core_perl/gcc-ar-15"
       - "/usr/bin/gcc-ar15"
-      - "/usr/local/sbin/gcc-ar15"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar15"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar15"
       - "/usr/local/bin/gcc-ar15"
+      - "/bin/gcc-ar15"
+      - "/usr/local/sbin/gcc-ar15"
       - "/usr/bin/site_perl/gcc-ar15"
       - "/usr/bin/vendor_perl/gcc-ar15"
       - "/usr/bin/core_perl/gcc-ar15"
     found: "/usr/bin/gcc-ar"
     search_context:
       ENV{PATH}:
-        - "/usr/local/sbin"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -878,36 +1067,53 @@ events:
       - "gcc-ranlib"
     candidate_directories:
       - "/usr/bin/"
-      - "/usr/local/sbin/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
     searched_directories:
       - "/usr/bin/gcc-ranlib-15.2"
-      - "/usr/local/sbin/gcc-ranlib-15.2"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-15.2"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-15.2"
       - "/usr/local/bin/gcc-ranlib-15.2"
+      - "/bin/gcc-ranlib-15.2"
+      - "/usr/local/sbin/gcc-ranlib-15.2"
       - "/usr/bin/site_perl/gcc-ranlib-15.2"
       - "/usr/bin/vendor_perl/gcc-ranlib-15.2"
       - "/usr/bin/core_perl/gcc-ranlib-15.2"
       - "/usr/bin/gcc-ranlib-15"
-      - "/usr/local/sbin/gcc-ranlib-15"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-15"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-15"
       - "/usr/local/bin/gcc-ranlib-15"
+      - "/bin/gcc-ranlib-15"
+      - "/usr/local/sbin/gcc-ranlib-15"
       - "/usr/bin/site_perl/gcc-ranlib-15"
       - "/usr/bin/vendor_perl/gcc-ranlib-15"
       - "/usr/bin/core_perl/gcc-ranlib-15"
       - "/usr/bin/gcc-ranlib15"
-      - "/usr/local/sbin/gcc-ranlib15"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib15"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib15"
       - "/usr/local/bin/gcc-ranlib15"
+      - "/bin/gcc-ranlib15"
+      - "/usr/local/sbin/gcc-ranlib15"
       - "/usr/bin/site_perl/gcc-ranlib15"
       - "/usr/bin/vendor_perl/gcc-ranlib15"
       - "/usr/bin/core_perl/gcc-ranlib15"
     found: "/usr/bin/gcc-ranlib"
     search_context:
       ENV{PATH}:
-        - "/usr/local/sbin"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -920,8 +1126,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/remxs2k/UMFST/Artefly/FlightBookingServer/build/CMakeFiles/CMakeScratch/TryCompile-6TlOsB"
-      binary: "/home/remxs2k/UMFST/Artefly/FlightBookingServer/build/CMakeFiles/CMakeScratch/TryCompile-6TlOsB"
+      source: "/home/remxs2k/UMFST/ArteFly/FlightBookingServer/build/CMakeFiles/CMakeScratch/TryCompile-Up3n82"
+      binary: "/home/remxs2k/UMFST/ArteFly/FlightBookingServer/build/CMakeFiles/CMakeScratch/TryCompile-Up3n82"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: ""
@@ -931,22 +1137,22 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/remxs2k/UMFST/Artefly/FlightBookingServer/build/CMakeFiles/CMakeScratch/TryCompile-6TlOsB'
+        Change Dir: '/home/remxs2k/UMFST/ArteFly/FlightBookingServer/build/CMakeFiles/CMakeScratch/TryCompile-Up3n82'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_99c69/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_99c69.dir/build.make CMakeFiles/cmTC_99c69.dir/build
-        make[1]: Entering directory '/home/remxs2k/UMFST/Artefly/FlightBookingServer/build/CMakeFiles/CMakeScratch/TryCompile-6TlOsB'
-        Building C object CMakeFiles/cmTC_99c69.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -v -o CMakeFiles/cmTC_99c69.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4a011/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_4a011.dir/build.make CMakeFiles/cmTC_4a011.dir/build
+        make[1]: Entering directory '/home/remxs2k/UMFST/ArteFly/FlightBookingServer/build/CMakeFiles/CMakeScratch/TryCompile-Up3n82'
+        Building C object CMakeFiles/cmTC_4a011.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_4a011.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         Target: x86_64-pc-linux-gnu
-        Configured with: /build/gcc/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++,rust,cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+        Configured with: /tmp/pkg/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++,rust,cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://github.com/CachyOS/CachyOS-PKGBUILDS/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 15.2.1 20260209 (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_99c69.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_99c69.dir/'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_99c69.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccoLoshC.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4a011.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4a011.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_4a011.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccPsGTnY.s
         GNU C23 (GCC) version 15.2.1 20260209 (x86_64-pc-linux-gnu)
         	compiled by GNU C version 15.2.1 20260209, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -960,33 +1166,33 @@ events:
          /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include-fixed
          /usr/include
         End of search list.
-        Compiler executable checksum: 4a3176b8a5098bb872007d0a1d5e5fb3
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_99c69.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_99c69.dir/'
-         as -v --64 -o CMakeFiles/cmTC_99c69.dir/CMakeCCompilerABI.c.o /tmp/ccoLoshC.s
+        Compiler executable checksum: 04cd47456b5b249e30071da0154ed539
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4a011.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4a011.dir/'
+         as -v --64 -o CMakeFiles/cmTC_4a011.dir/CMakeCCompilerABI.c.o /tmp/ccPsGTnY.s
         GNU assembler version 2.46 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.46
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_99c69.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_99c69.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_99c69
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99c69.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4a011.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4a011.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_4a011
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a011.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper
         Target: x86_64-pc-linux-gnu
-        Configured with: /build/gcc/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++,rust,cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+        Configured with: /tmp/pkg/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++,rust,cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://github.com/CachyOS/CachyOS-PKGBUILDS/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 15.2.1 20260209 (GCC) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_99c69' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_99c69.'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccIqAyGv.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_99c69 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_99c69.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4a011' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_4a011.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYML9za.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_4a011 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_4a011.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
         collect2 version 15.2.1 20260209
-        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccIqAyGv.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_99c69 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_99c69.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYML9za.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_4a011 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_4a011.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
         GNU ld (GNU Binutils) 2.46
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_99c69' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_99c69.'
-        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_99c69.dir/CMakeCCompilerABI.c.o -o cmTC_99c69
-        make[1]: Leaving directory '/home/remxs2k/UMFST/Artefly/FlightBookingServer/build/CMakeFiles/CMakeScratch/TryCompile-6TlOsB'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4a011' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_4a011.'
+        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_4a011.dir/CMakeCCompilerABI.c.o -o cmTC_4a011
+        make[1]: Leaving directory '/home/remxs2k/UMFST/ArteFly/FlightBookingServer/build/CMakeFiles/CMakeScratch/TryCompile-Up3n82'
         
       exitCode: 0
   -
@@ -1021,22 +1227,22 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/remxs2k/UMFST/Artefly/FlightBookingServer/build/CMakeFiles/CMakeScratch/TryCompile-6TlOsB']
+        ignore line: [Change Dir: '/home/remxs2k/UMFST/ArteFly/FlightBookingServer/build/CMakeFiles/CMakeScratch/TryCompile-Up3n82']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_99c69/fast]
-        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_99c69.dir/build.make CMakeFiles/cmTC_99c69.dir/build]
-        ignore line: [make[1]: Entering directory '/home/remxs2k/UMFST/Artefly/FlightBookingServer/build/CMakeFiles/CMakeScratch/TryCompile-6TlOsB']
-        ignore line: [Building C object CMakeFiles/cmTC_99c69.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_99c69.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4a011/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_4a011.dir/build.make CMakeFiles/cmTC_4a011.dir/build]
+        ignore line: [make[1]: Entering directory '/home/remxs2k/UMFST/ArteFly/FlightBookingServer/build/CMakeFiles/CMakeScratch/TryCompile-Up3n82']
+        ignore line: [Building C object CMakeFiles/cmTC_4a011.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_4a011.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [Target: x86_64-pc-linux-gnu]
-        ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=ada c c++ d fortran go lto m2 objc obj-c++ rust cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+        ignore line: [Configured with: /tmp/pkg/src/gcc/configure --enable-languages=ada c c++ d fortran go lto m2 objc obj-c++ rust cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://github.com/CachyOS/CachyOS-PKGBUILDS/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 15.2.1 20260209 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_99c69.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_99c69.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_99c69.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccoLoshC.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4a011.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4a011.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_4a011.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccPsGTnY.s]
         ignore line: [GNU C23 (GCC) version 15.2.1 20260209 (x86_64-pc-linux-gnu)]
         ignore line: [	compiled by GNU C version 15.2.1 20260209  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -1050,32 +1256,32 @@ events:
         ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include-fixed]
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
-        ignore line: [Compiler executable checksum: 4a3176b8a5098bb872007d0a1d5e5fb3]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_99c69.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_99c69.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_99c69.dir/CMakeCCompilerABI.c.o /tmp/ccoLoshC.s]
+        ignore line: [Compiler executable checksum: 04cd47456b5b249e30071da0154ed539]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4a011.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4a011.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_4a011.dir/CMakeCCompilerABI.c.o /tmp/ccPsGTnY.s]
         ignore line: [GNU assembler version 2.46 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.46]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_99c69.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_99c69.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_99c69]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99c69.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4a011.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4a011.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_4a011]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a011.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper]
         ignore line: [Target: x86_64-pc-linux-gnu]
-        ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=ada c c++ d fortran go lto m2 objc obj-c++ rust cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+        ignore line: [Configured with: /tmp/pkg/src/gcc/configure --enable-languages=ada c c++ d fortran go lto m2 objc obj-c++ rust cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://github.com/CachyOS/CachyOS-PKGBUILDS/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 15.2.1 20260209 (GCC) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_99c69' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_99c69.']
-        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccIqAyGv.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_99c69 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_99c69.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4a011' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_4a011.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYML9za.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_4a011 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_4a011.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccIqAyGv.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccYML9za.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -1090,7 +1296,7 @@ events:
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-pie] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_99c69] ==> ignore
+          arg [cmTC_4a011] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o]
@@ -1102,7 +1308,7 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_99c69.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_4a011.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--push-state] ==> ignore
           arg [--as-needed] ==> ignore
@@ -1117,7 +1323,7 @@ events:
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
         ignore line: [collect2 version 15.2.1 20260209]
-        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccIqAyGv.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_99c69 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_99c69.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYML9za.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_4a011 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_4a011.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
         linker tool for 'C': /usr/bin/ld
         collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o] ==> [/usr/lib/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o] ==> [/usr/lib/crti.o]
@@ -1154,8 +1360,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/remxs2k/UMFST/Artefly/FlightBookingServer/build/CMakeFiles/CMakeScratch/TryCompile-Wlm33p"
-      binary: "/home/remxs2k/UMFST/Artefly/FlightBookingServer/build/CMakeFiles/CMakeScratch/TryCompile-Wlm33p"
+      source: "/home/remxs2k/UMFST/ArteFly/FlightBookingServer/build/CMakeFiles/CMakeScratch/TryCompile-llPrMT"
+      binary: "/home/remxs2k/UMFST/ArteFly/FlightBookingServer/build/CMakeFiles/CMakeScratch/TryCompile-llPrMT"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1166,22 +1372,22 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/remxs2k/UMFST/Artefly/FlightBookingServer/build/CMakeFiles/CMakeScratch/TryCompile-Wlm33p'
+        Change Dir: '/home/remxs2k/UMFST/ArteFly/FlightBookingServer/build/CMakeFiles/CMakeScratch/TryCompile-llPrMT'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4ccf6/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_4ccf6.dir/build.make CMakeFiles/cmTC_4ccf6.dir/build
-        make[1]: Entering directory '/home/remxs2k/UMFST/Artefly/FlightBookingServer/build/CMakeFiles/CMakeScratch/TryCompile-Wlm33p'
-        Building CXX object CMakeFiles/cmTC_4ccf6.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -o CMakeFiles/cmTC_4ccf6.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_cd72c/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_cd72c.dir/build.make CMakeFiles/cmTC_cd72c.dir/build
+        make[1]: Entering directory '/home/remxs2k/UMFST/ArteFly/FlightBookingServer/build/CMakeFiles/CMakeScratch/TryCompile-llPrMT'
+        Building CXX object CMakeFiles/cmTC_cd72c.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_cd72c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         Target: x86_64-pc-linux-gnu
-        Configured with: /build/gcc/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++,rust,cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+        Configured with: /tmp/pkg/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++,rust,cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://github.com/CachyOS/CachyOS-PKGBUILDS/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 15.2.1 20260209 (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4ccf6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4ccf6.dir/'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_4ccf6.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/cczeiJMv.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cd72c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cd72c.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_cd72c.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccrwgUbL.s
         GNU C++17 (GCC) version 15.2.1 20260209 (x86_64-pc-linux-gnu)
         	compiled by GNU C version 15.2.1 20260209, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -1198,33 +1404,33 @@ events:
          /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include-fixed
          /usr/include
         End of search list.
-        Compiler executable checksum: 5e3969de92aa3c12a625237f01b15b2f
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4ccf6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4ccf6.dir/'
-         as -v --64 -o CMakeFiles/cmTC_4ccf6.dir/CMakeCXXCompilerABI.cpp.o /tmp/cczeiJMv.s
+        Compiler executable checksum: e33852c7c89951bc2dfbee7c05e182e4
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cd72c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cd72c.dir/'
+         as -v --64 -o CMakeFiles/cmTC_cd72c.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccrwgUbL.s
         GNU assembler version 2.46 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.46
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4ccf6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4ccf6.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_4ccf6
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ccf6.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cd72c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cd72c.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_cd72c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd72c.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper
         Target: x86_64-pc-linux-gnu
-        Configured with: /build/gcc/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++,rust,cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+        Configured with: /tmp/pkg/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++,rust,cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://github.com/CachyOS/CachyOS-PKGBUILDS/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 15.2.1 20260209 (GCC) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4ccf6' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_4ccf6.'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2k0ZYM.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_4ccf6 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_4ccf6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cd72c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_cd72c.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cctzT1LB.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_cd72c /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_cd72c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
         collect2 version 15.2.1 20260209
-        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2k0ZYM.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_4ccf6 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_4ccf6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cctzT1LB.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_cd72c /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_cd72c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
         GNU ld (GNU Binutils) 2.46
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4ccf6' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_4ccf6.'
-        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_4ccf6.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_4ccf6
-        make[1]: Leaving directory '/home/remxs2k/UMFST/Artefly/FlightBookingServer/build/CMakeFiles/CMakeScratch/TryCompile-Wlm33p'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cd72c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_cd72c.'
+        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_cd72c.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_cd72c
+        make[1]: Leaving directory '/home/remxs2k/UMFST/ArteFly/FlightBookingServer/build/CMakeFiles/CMakeScratch/TryCompile-llPrMT'
         
       exitCode: 0
   -
@@ -1265,22 +1471,22 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/remxs2k/UMFST/Artefly/FlightBookingServer/build/CMakeFiles/CMakeScratch/TryCompile-Wlm33p']
+        ignore line: [Change Dir: '/home/remxs2k/UMFST/ArteFly/FlightBookingServer/build/CMakeFiles/CMakeScratch/TryCompile-llPrMT']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4ccf6/fast]
-        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_4ccf6.dir/build.make CMakeFiles/cmTC_4ccf6.dir/build]
-        ignore line: [make[1]: Entering directory '/home/remxs2k/UMFST/Artefly/FlightBookingServer/build/CMakeFiles/CMakeScratch/TryCompile-Wlm33p']
-        ignore line: [Building CXX object CMakeFiles/cmTC_4ccf6.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_4ccf6.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_cd72c/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_cd72c.dir/build.make CMakeFiles/cmTC_cd72c.dir/build]
+        ignore line: [make[1]: Entering directory '/home/remxs2k/UMFST/ArteFly/FlightBookingServer/build/CMakeFiles/CMakeScratch/TryCompile-llPrMT']
+        ignore line: [Building CXX object CMakeFiles/cmTC_cd72c.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_cd72c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [Target: x86_64-pc-linux-gnu]
-        ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=ada c c++ d fortran go lto m2 objc obj-c++ rust cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+        ignore line: [Configured with: /tmp/pkg/src/gcc/configure --enable-languages=ada c c++ d fortran go lto m2 objc obj-c++ rust cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://github.com/CachyOS/CachyOS-PKGBUILDS/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 15.2.1 20260209 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4ccf6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4ccf6.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_4ccf6.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/cczeiJMv.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cd72c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cd72c.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_cd72c.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccrwgUbL.s]
         ignore line: [GNU C++17 (GCC) version 15.2.1 20260209 (x86_64-pc-linux-gnu)]
         ignore line: [	compiled by GNU C version 15.2.1 20260209  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -1297,32 +1503,32 @@ events:
         ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include-fixed]
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
-        ignore line: [Compiler executable checksum: 5e3969de92aa3c12a625237f01b15b2f]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4ccf6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4ccf6.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_4ccf6.dir/CMakeCXXCompilerABI.cpp.o /tmp/cczeiJMv.s]
+        ignore line: [Compiler executable checksum: e33852c7c89951bc2dfbee7c05e182e4]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cd72c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cd72c.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_cd72c.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccrwgUbL.s]
         ignore line: [GNU assembler version 2.46 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.46]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4ccf6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4ccf6.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_4ccf6]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ccf6.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cd72c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cd72c.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_cd72c]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd72c.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper]
         ignore line: [Target: x86_64-pc-linux-gnu]
-        ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=ada c c++ d fortran go lto m2 objc obj-c++ rust cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+        ignore line: [Configured with: /tmp/pkg/src/gcc/configure --enable-languages=ada c c++ d fortran go lto m2 objc obj-c++ rust cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://github.com/CachyOS/CachyOS-PKGBUILDS/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 15.2.1 20260209 (GCC) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4ccf6' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_4ccf6.']
-        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2k0ZYM.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_4ccf6 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_4ccf6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cd72c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_cd72c.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cctzT1LB.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_cd72c /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_cd72c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/cc2k0ZYM.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cctzT1LB.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -1337,7 +1543,7 @@ events:
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-pie] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_4ccf6] ==> ignore
+          arg [cmTC_cd72c] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o]
@@ -1349,7 +1555,7 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_4ccf6.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_cd72c.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -1360,7 +1566,7 @@ events:
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
         ignore line: [collect2 version 15.2.1 20260209]
-        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2k0ZYM.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_4ccf6 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_4ccf6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cctzT1LB.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_cd72c /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_cd72c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
         linker tool for 'CXX': /usr/bin/ld
         collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o] ==> [/usr/lib/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o] ==> [/usr/lib/crti.o]
@@ -1391,10 +1597,696 @@ events:
   -
     kind: "find_package-v1"
     backtrace:
+      - "/usr/share/cmake/Modules/FindCURL.cmake:174 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
+    name: "CURL"
+    configs:
+      -
+        filename: "CURL.cps"
+        kind: "cps"
+      -
+        filename: "curl.cps"
+        kind: "cps"
+      -
+        filename: "CURLConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "curl-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "CURL"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/remxs2k/UMFST/ArteFly/FlightBookingServer/build/CMakeFiles/pkgRedirects/CURLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/remxs2k/UMFST/ArteFly/FlightBookingServer/build/CMakeFiles/pkgRedirects/curl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/remxs2k/UMFST/ArteFly/FlightBookingServer/build/CMakeFiles/pkgRedirects/lib/cps/CURL.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/remxs2k/UMFST/ArteFly/FlightBookingServer/build/CMakeFiles/pkgRedirects/lib/cps/curl.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/remxs2k/UMFST/ArteFly/FlightBookingServer/build/CMakeFiles/pkgRedirects/share/cps/CURL.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/remxs2k/UMFST/ArteFly/FlightBookingServer/build/CMakeFiles/pkgRedirects/share/cps/curl.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/CURLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/curl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/lib/cps/CURL.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/lib/cps/curl.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/share/cps/CURL.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/share/cps/curl.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/CURLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/curl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/lib/cps/CURL.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/lib/cps/curl.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/share/cps/CURL.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/share/cps/curl.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/CURLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/curl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/lib/cps/CURL.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/lib/cps/curl.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/share/cps/CURL.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/share/cps/curl.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/CURLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/curl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cps/CURL.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cps/curl.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/share/cps/CURL.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/share/cps/curl.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/CURLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/curl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/lib/cps/CURL.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/lib/cps/curl.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/share/cps/CURL.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/share/cps/curl.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/site_perl/CURLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/site_perl/curl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/site_perl/lib/cps/CURL.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/site_perl/lib/cps/curl.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/site_perl/share/cps/CURL.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/site_perl/share/cps/curl.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/vendor_perl/CURLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/vendor_perl/curl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/vendor_perl/lib/cps/CURL.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/vendor_perl/lib/cps/curl.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/vendor_perl/share/cps/CURL.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/vendor_perl/share/cps/curl.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/core_perl/CURLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/core_perl/curl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/core_perl/lib/cps/CURL.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/core_perl/lib/cps/curl.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/core_perl/share/cps/CURL.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/core_perl/share/cps/curl.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/opt/CURLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/curl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/lib/cps/CURL.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/opt/lib/cps/curl.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/opt/share/cps/CURL.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/opt/share/cps/curl.cps"
+        mode: "cps"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:517 (find_program)"
+      - "/usr/share/cmake/Modules/FindCURL.cmake:189 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
+    mode: "program"
+    variable: "PKG_CONFIG_EXECUTABLE"
+    description: "pkg-config executable"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "pkg-config"
+      - "pkgconf"
+    candidate_directories:
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    searched_directories:
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/pkg-config"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/pkgconf"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/pkg-config"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/pkgconf"
+      - "/usr/local/bin/pkg-config"
+      - "/usr/local/bin/pkgconf"
+    found: "/usr/bin/pkg-config"
+    search_context:
+      ENV{PATH}:
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:761 (find_library)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:811 (_pkg_find_libs)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
+      - "/usr/share/cmake/Modules/FindCURL.cmake:191 (pkg_check_modules)"
+      - "CMakeLists.txt:6 (find_package)"
+    mode: "library"
+    variable: "pkgcfg_lib_PC_CURL_curl"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "curl"
+    candidate_directories:
+      - "/usr/lib/"
+    found: "/usr/lib/libcurl.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindCURL.cmake:201 (find_path)"
+      - "CMakeLists.txt:6 (find_package)"
+    mode: "path"
+    variable: "CURL_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "curl/curl.h"
+    candidate_directories:
+      - "/usr/include/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/local/include/"
+      - "/usr/local/"
+      - "/usr/include/"
+      - "/usr/"
+      - "/include/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/"
+      - "/opt/include/"
+      - "/opt/"
+      - "/usr/include/X11/"
+    found: "/usr/include/"
+    search_context:
+      ENV{PATH}:
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindCURL.cmake:208 (find_library)"
+      - "CMakeLists.txt:6 (find_package)"
+    mode: "library"
+    variable: "CURL_LIBRARY_RELEASE"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "curl"
+      - "curllib"
+      - "libcurl_imp"
+      - "curllib_static"
+      - "libcurl"
+      - "libcurl_a"
+    candidate_directories:
+      - "/usr/lib/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/"
+      - "/opt/lib/"
+      - "/opt/"
+      - "/usr/lib/X11/"
+    found: "/usr/lib/libcurl.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindCURL.cmake:223 (find_library)"
+      - "CMakeLists.txt:6 (find_package)"
+    mode: "library"
+    variable: "CURL_LIBRARY_DEBUG"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "libcurl-d_imp"
+      - "libcurl-d"
+    candidate_directories:
+      - "/usr/lib/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/"
+      - "/opt/lib/"
+      - "/opt/"
+      - "/usr/lib/X11/"
+    searched_directories:
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/local/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/usr/"
+      - "/lib/"
+      - "/lib/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/"
+      - "/usr/pkg/"
+      - "/opt/lib/"
+      - "/opt/lib/"
+      - "/opt/"
+      - "/opt/"
+      - "/usr/lib/X11/"
+      - "/usr/lib/X11/"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find_package-v1"
+    backtrace:
       - "/usr/lib/cmake/Boost-1.90.0/BoostConfig.cmake:141 (find_package)"
       - "/usr/lib/cmake/Boost-1.90.0/BoostConfig.cmake:215 (boost_find_component)"
       - "/usr/share/cmake/Modules/FindBoost.cmake:610 (find_package)"
-      - "CMakeLists.txt:6 (find_package)"
+      - "CMakeLists.txt:7 (find_package)"
     name: "boost_headers"
     configs:
       -
@@ -1434,19 +2326,19 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/home/remxs2k/UMFST/Artefly/FlightBookingServer/build/CMakeFiles/pkgRedirects/boost_headersConfig.cmake"
+        path: "/home/remxs2k/UMFST/ArteFly/FlightBookingServer/build/CMakeFiles/pkgRedirects/boost_headersConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/remxs2k/UMFST/Artefly/FlightBookingServer/build/CMakeFiles/pkgRedirects/boost_headers-config.cmake"
+        path: "/home/remxs2k/UMFST/ArteFly/FlightBookingServer/build/CMakeFiles/pkgRedirects/boost_headers-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/remxs2k/UMFST/Artefly/FlightBookingServer/build/CMakeFiles/pkgRedirects/lib/cps/boost_headers.cps"
+        path: "/home/remxs2k/UMFST/ArteFly/FlightBookingServer/build/CMakeFiles/pkgRedirects/lib/cps/boost_headers.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/remxs2k/UMFST/Artefly/FlightBookingServer/build/CMakeFiles/pkgRedirects/share/cps/boost_headers.cps"
+        path: "/home/remxs2k/UMFST/ArteFly/FlightBookingServer/build/CMakeFiles/pkgRedirects/share/cps/boost_headers.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -1467,9 +2359,14 @@ events:
       version: "1.90.0"
     search_context:
       ENV{PATH}:
-        - "/usr/local/sbin"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -1487,7 +2384,7 @@ events:
     kind: "find_package-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindBoost.cmake:610 (find_package)"
-      - "CMakeLists.txt:6 (find_package)"
+      - "CMakeLists.txt:7 (find_package)"
     name: "Boost"
     configs:
       -
@@ -1526,27 +2423,75 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/home/remxs2k/UMFST/Artefly/FlightBookingServer/build/CMakeFiles/pkgRedirects/BoostConfig.cmake"
+        path: "/home/remxs2k/UMFST/ArteFly/FlightBookingServer/build/CMakeFiles/pkgRedirects/BoostConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/remxs2k/UMFST/Artefly/FlightBookingServer/build/CMakeFiles/pkgRedirects/boost-config.cmake"
+        path: "/home/remxs2k/UMFST/ArteFly/FlightBookingServer/build/CMakeFiles/pkgRedirects/boost-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/remxs2k/UMFST/Artefly/FlightBookingServer/build/CMakeFiles/pkgRedirects/lib/cps/Boost.cps"
+        path: "/home/remxs2k/UMFST/ArteFly/FlightBookingServer/build/CMakeFiles/pkgRedirects/lib/cps/Boost.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/remxs2k/UMFST/Artefly/FlightBookingServer/build/CMakeFiles/pkgRedirects/lib/cps/boost.cps"
+        path: "/home/remxs2k/UMFST/ArteFly/FlightBookingServer/build/CMakeFiles/pkgRedirects/lib/cps/boost.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/remxs2k/UMFST/Artefly/FlightBookingServer/build/CMakeFiles/pkgRedirects/share/cps/Boost.cps"
+        path: "/home/remxs2k/UMFST/ArteFly/FlightBookingServer/build/CMakeFiles/pkgRedirects/share/cps/Boost.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/remxs2k/UMFST/Artefly/FlightBookingServer/build/CMakeFiles/pkgRedirects/share/cps/boost.cps"
+        path: "/home/remxs2k/UMFST/ArteFly/FlightBookingServer/build/CMakeFiles/pkgRedirects/share/cps/boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/lib/cps/Boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/lib/cps/boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/share/cps/Boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/share/cps/boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/lib/cps/Boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/lib/cps/boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/share/cps/Boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/share/cps/boost.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -2019,9 +2964,14 @@ events:
       version: "1.90.0"
     search_context:
       ENV{PATH}:
-        - "/usr/local/sbin"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -2040,7 +2990,7 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/FindBoost.cmake:538 (find_path)"
       - "/usr/share/cmake/Modules/FindBoost.cmake:643 (_boost_set_legacy_variables_from_config)"
-      - "CMakeLists.txt:6 (find_package)"
+      - "CMakeLists.txt:7 (find_package)"
     mode: "path"
     variable: "Boost_INCLUDE_DIR"
     description: "Path to a file."
@@ -2060,9 +3010,14 @@ events:
     found: "/usr/include/"
     search_context:
       ENV{PATH}:
-        - "/usr/local/sbin"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -2081,80 +3036,12 @@ events:
   -
     kind: "find-v1"
     backtrace:
-      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:517 (find_program)"
-      - "/usr/share/cmake/Modules/FindOpenSSL.cmake:295 (find_package)"
-      - "CMakeLists.txt:7 (find_package)"
-    mode: "program"
-    variable: "PKG_CONFIG_EXECUTABLE"
-    description: "pkg-config executable"
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "pkg-config"
-      - "pkgconf"
-    candidate_directories:
-      - "/usr/local/sbin/"
-      - "/usr/local/bin/"
-      - "/usr/bin/"
-      - "/usr/bin/site_perl/"
-      - "/usr/bin/vendor_perl/"
-      - "/usr/bin/core_perl/"
-      - "/usr/local/bin/"
-      - "/usr/local/sbin/"
-      - "/usr/local/"
-      - "/usr/bin/"
-      - "/usr/sbin/"
-      - "/usr/"
-      - "/bin/"
-      - "/sbin/"
-      - "/usr/X11R6/bin/"
-      - "/usr/X11R6/sbin/"
-      - "/usr/X11R6/"
-      - "/usr/pkg/bin/"
-      - "/usr/pkg/sbin/"
-      - "/usr/pkg/"
-      - "/opt/bin/"
-      - "/opt/sbin/"
-      - "/opt/"
-    searched_directories:
-      - "/usr/local/sbin/pkg-config"
-      - "/usr/local/sbin/pkgconf"
-      - "/usr/local/bin/pkg-config"
-      - "/usr/local/bin/pkgconf"
-    found: "/usr/bin/pkg-config"
-    search_context:
-      ENV{PATH}:
-        - "/usr/local/sbin"
-        - "/usr/local/bin"
-        - "/usr/bin"
-        - "/usr/bin/site_perl"
-        - "/usr/bin/vendor_perl"
-        - "/usr/bin/core_perl"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "/usr/local"
-        - "/usr"
-        - "/"
-        - "/usr"
-        - "/usr/local"
-        - "/usr/X11R6"
-        - "/usr/pkg"
-        - "/opt"
-  -
-    kind: "find-v1"
-    backtrace:
       - "/usr/share/cmake/Modules/FindPkgConfig.cmake:761 (find_library)"
       - "/usr/share/cmake/Modules/FindPkgConfig.cmake:811 (_pkg_find_libs)"
       - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
       - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
       - "/usr/share/cmake/Modules/FindOpenSSL.cmake:297 (pkg_check_modules)"
-      - "CMakeLists.txt:7 (find_package)"
+      - "CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "pkgcfg_lib__OPENSSL_ssl"
     description: "Path to a library."
@@ -2173,9 +3060,14 @@ events:
     found: "/usr/lib/libssl.so"
     search_context:
       ENV{PATH}:
-        - "/usr/local/sbin"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -2199,7 +3091,7 @@ events:
       - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
       - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
       - "/usr/share/cmake/Modules/FindOpenSSL.cmake:297 (pkg_check_modules)"
-      - "CMakeLists.txt:7 (find_package)"
+      - "CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "pkgcfg_lib__OPENSSL_crypto"
     description: "Path to a library."
@@ -2218,9 +3110,14 @@ events:
     found: "/usr/lib/libcrypto.so"
     search_context:
       ENV{PATH}:
-        - "/usr/local/sbin"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -2240,7 +3137,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindOpenSSL.cmake:370 (find_path)"
-      - "CMakeLists.txt:7 (find_package)"
+      - "CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "OPENSSL_INCLUDE_DIR"
     description: "Path to a file."
@@ -2257,12 +3154,18 @@ events:
     candidate_directories:
       - "/usr/include/include/"
       - "/usr/include/"
-      - "/usr/local/sbin/include/"
-      - "/usr/local/sbin/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/include/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/include/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/local/bin/include/"
       - "/usr/local/bin/"
       - "/usr/bin/include/"
       - "/usr/bin/"
+      - "/bin/include/"
+      - "/bin/"
+      - "/usr/local/sbin/include/"
+      - "/usr/local/sbin/"
       - "/usr/bin/site_perl/include/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/include/"
@@ -2298,9 +3201,14 @@ events:
     found: "/usr/include/"
     search_context:
       ENV{PATH}:
-        - "/usr/local/sbin"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -2320,7 +3228,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindOpenSSL.cmake:628 (find_library)"
-      - "CMakeLists.txt:7 (find_package)"
+      - "CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "OPENSSL_SSL_LIBRARY"
     description: "Path to a library."
@@ -2340,15 +3248,24 @@ events:
       - "/usr/lib/lib/"
       - "/usr/lib/lib64/"
       - "/usr/lib/"
-      - "/usr/local/sbin/lib/"
-      - "/usr/local/sbin/lib64/"
-      - "/usr/local/sbin/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/lib/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/lib64/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/lib/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/lib64/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/local/bin/lib/"
       - "/usr/local/bin/lib64/"
       - "/usr/local/bin/"
       - "/usr/bin/lib/"
       - "/usr/bin/lib64/"
       - "/usr/bin/"
+      - "/bin/lib/"
+      - "/bin/lib64/"
+      - "/bin/"
+      - "/usr/local/sbin/lib/"
+      - "/usr/local/sbin/lib64/"
+      - "/usr/local/sbin/"
       - "/usr/bin/site_perl/lib/"
       - "/usr/bin/site_perl/lib64/"
       - "/usr/bin/site_perl/"
@@ -2404,9 +3321,14 @@ events:
     found: "/usr/lib/libssl.so"
     search_context:
       ENV{PATH}:
-        - "/usr/local/sbin"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -2426,7 +3348,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindOpenSSL.cmake:642 (find_library)"
-      - "CMakeLists.txt:7 (find_package)"
+      - "CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "OPENSSL_CRYPTO_LIBRARY"
     description: "Path to a library."
@@ -2444,15 +3366,24 @@ events:
       - "/usr/lib/lib/"
       - "/usr/lib/lib64/"
       - "/usr/lib/"
-      - "/usr/local/sbin/lib/"
-      - "/usr/local/sbin/lib64/"
-      - "/usr/local/sbin/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/lib/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/lib64/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/lib/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/lib64/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/local/bin/lib/"
       - "/usr/local/bin/lib64/"
       - "/usr/local/bin/"
       - "/usr/bin/lib/"
       - "/usr/bin/lib64/"
       - "/usr/bin/"
+      - "/bin/lib/"
+      - "/bin/lib64/"
+      - "/bin/"
+      - "/usr/local/sbin/lib/"
+      - "/usr/local/sbin/lib64/"
+      - "/usr/local/sbin/"
       - "/usr/bin/site_perl/lib/"
       - "/usr/bin/site_perl/lib64/"
       - "/usr/bin/site_perl/"
@@ -2504,9 +3435,14 @@ events:
     found: "/usr/lib/libcrypto.so"
     search_context:
       ENV{PATH}:
-        - "/usr/local/sbin"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -2529,12 +3465,12 @@ events:
       - "/usr/share/cmake/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
       - "/usr/share/cmake/Modules/FindThreads.cmake:160 (check_c_source_compiles)"
       - "/usr/share/cmake/Modules/FindThreads.cmake:226 (_threads_check_libc)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:9 (find_package)"
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/home/remxs2k/UMFST/Artefly/FlightBookingServer/build/CMakeFiles/CMakeScratch/TryCompile-mFu08G"
-      binary: "/home/remxs2k/UMFST/Artefly/FlightBookingServer/build/CMakeFiles/CMakeScratch/TryCompile-mFu08G"
+      source: "/home/remxs2k/UMFST/ArteFly/FlightBookingServer/build/CMakeFiles/CMakeScratch/TryCompile-MJr7rn"
+      binary: "/home/remxs2k/UMFST/ArteFly/FlightBookingServer/build/CMakeFiles/CMakeScratch/TryCompile-MJr7rn"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: ""
@@ -2544,17 +3480,17 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/home/remxs2k/UMFST/Artefly/FlightBookingServer/build/CMakeFiles/CMakeScratch/TryCompile-mFu08G'
+        Change Dir: '/home/remxs2k/UMFST/ArteFly/FlightBookingServer/build/CMakeFiles/CMakeScratch/TryCompile-MJr7rn'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5c733/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_5c733.dir/build.make CMakeFiles/cmTC_5c733.dir/build
-        make[1]: Entering directory '/home/remxs2k/UMFST/Artefly/FlightBookingServer/build/CMakeFiles/CMakeScratch/TryCompile-mFu08G'
-        Building C object CMakeFiles/cmTC_5c733.dir/src.c.o
-        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_5c733.dir/src.c.o -c /home/remxs2k/UMFST/Artefly/FlightBookingServer/build/CMakeFiles/CMakeScratch/TryCompile-mFu08G/src.c
-        Linking C executable cmTC_5c733
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c733.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_5c733.dir/src.c.o -o cmTC_5c733
-        make[1]: Leaving directory '/home/remxs2k/UMFST/Artefly/FlightBookingServer/build/CMakeFiles/CMakeScratch/TryCompile-mFu08G'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8196b/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_8196b.dir/build.make CMakeFiles/cmTC_8196b.dir/build
+        make[1]: Entering directory '/home/remxs2k/UMFST/ArteFly/FlightBookingServer/build/CMakeFiles/CMakeScratch/TryCompile-MJr7rn'
+        Building C object CMakeFiles/cmTC_8196b.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_8196b.dir/src.c.o -c /home/remxs2k/UMFST/ArteFly/FlightBookingServer/build/CMakeFiles/CMakeScratch/TryCompile-MJr7rn/src.c
+        Linking C executable cmTC_8196b
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8196b.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_8196b.dir/src.c.o -o cmTC_8196b
+        make[1]: Leaving directory '/home/remxs2k/UMFST/ArteFly/FlightBookingServer/build/CMakeFiles/CMakeScratch/TryCompile-MJr7rn'
         
       exitCode: 0
   -
@@ -2565,7 +3501,7 @@ events:
       - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
       - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
       - "/usr/share/cmake/Modules/FindSQLite3.cmake:80 (pkg_check_modules)"
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
     mode: "library"
     variable: "pkgcfg_lib_PC_SQLite3_sqlite3"
     description: "Path to a library."
@@ -2584,9 +3520,14 @@ events:
     found: "/usr/lib/libsqlite3.so"
     search_context:
       ENV{PATH}:
-        - "/usr/local/sbin"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -2606,7 +3547,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindSQLite3.cmake:84 (find_path)"
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
     mode: "path"
     variable: "SQLite3_INCLUDE_DIR"
     description: "Path to a file."
@@ -2622,9 +3563,12 @@ events:
       - "sqlite3.h"
     candidate_directories:
       - "/usr/include/"
-      - "/usr/local/sbin/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/local/bin/"
       - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
@@ -2643,9 +3587,14 @@ events:
     found: "/usr/include/"
     search_context:
       ENV{PATH}:
-        - "/usr/local/sbin"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -2665,7 +3614,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindSQLite3.cmake:91 (find_library)"
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
     mode: "library"
     variable: "SQLite3_LIBRARY"
     description: "Path to a library."
@@ -2682,9 +3631,12 @@ events:
       - "sqlite"
     candidate_directories:
       - "/usr/lib/"
-      - "/usr/local/sbin/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/local/bin/"
       - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
@@ -2703,601 +3655,14 @@ events:
     found: "/usr/lib/libsqlite3.so"
     search_context:
       ENV{PATH}:
-        - "/usr/local/sbin"
-        - "/usr/local/bin"
-        - "/usr/bin"
-        - "/usr/bin/site_perl"
-        - "/usr/bin/vendor_perl"
-        - "/usr/bin/core_perl"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "/usr/local"
-        - "/usr"
-        - "/"
-        - "/usr"
-        - "/usr/local"
-        - "/usr/X11R6"
-        - "/usr/pkg"
-        - "/opt"
-      CMAKE_SYSTEM_LIBRARY_PATH:
-        - "/usr/lib/X11"
-...
-
----
-events:
-  -
-    kind: "find_package-v1"
-    backtrace:
-      - "/usr/share/cmake/Modules/FindCURL.cmake:174 (find_package)"
-      - "CMakeLists.txt:6 (find_package)"
-    name: "CURL"
-    configs:
-      -
-        filename: "CURL.cps"
-        kind: "cps"
-      -
-        filename: "curl.cps"
-        kind: "cps"
-      -
-        filename: "CURLConfig.cmake"
-        kind: "cmake"
-      -
-        filename: "curl-config.cmake"
-        kind: "cmake"
-    version_request:
-      exact: false
-    settings:
-      required: "optional"
-      quiet: true
-      global: false
-      policy_scope: true
-      bypass_provider: false
-      names:
-        - "CURL"
-      path_suffixes:
-        - ""
-      paths:
-        CMAKE_FIND_USE_CMAKE_PATH: true
-        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-        CMAKE_FIND_USE_INSTALL_PREFIX: true
-        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
-        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
-        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
-        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
-    candidates:
-      -
-        path: "/home/remxs2k/UMFST/Artefly/FlightBookingServer/build/CMakeFiles/pkgRedirects/CURLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/home/remxs2k/UMFST/Artefly/FlightBookingServer/build/CMakeFiles/pkgRedirects/curl-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/home/remxs2k/UMFST/Artefly/FlightBookingServer/build/CMakeFiles/pkgRedirects/lib/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/home/remxs2k/UMFST/Artefly/FlightBookingServer/build/CMakeFiles/pkgRedirects/lib/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/home/remxs2k/UMFST/Artefly/FlightBookingServer/build/CMakeFiles/pkgRedirects/share/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/home/remxs2k/UMFST/Artefly/FlightBookingServer/build/CMakeFiles/pkgRedirects/share/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/CURLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/curl-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/lib/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/lib/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/share/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/share/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/CURLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/curl-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/lib/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/lib/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/share/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/share/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/usr/local/CURLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/usr/local/curl-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/usr/local/lib/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/usr/local/lib/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/usr/local/share/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/usr/local/share/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/usr/CURLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/usr/curl-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/usr/lib/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/usr/lib/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/usr/share/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/usr/share/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/usr/bin/site_perl/CURLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/usr/bin/site_perl/curl-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/usr/bin/site_perl/lib/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/usr/bin/site_perl/lib/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/usr/bin/site_perl/share/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/usr/bin/site_perl/share/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/usr/bin/vendor_perl/CURLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/usr/bin/vendor_perl/curl-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/usr/bin/vendor_perl/lib/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/usr/bin/vendor_perl/lib/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/usr/bin/vendor_perl/share/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/usr/bin/vendor_perl/share/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/usr/bin/core_perl/CURLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/usr/bin/core_perl/curl-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/usr/bin/core_perl/lib/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/usr/bin/core_perl/lib/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/usr/bin/core_perl/share/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/usr/bin/core_perl/share/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/CURLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/curl-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/lib/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/lib/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/share/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/share/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/opt/CURLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/opt/curl-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/opt/lib/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/opt/lib/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/opt/share/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/opt/share/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-    found: null
-    search_context:
-      ENV{PATH}:
         - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/usr/local/sbin"
-        - "/usr/local/bin"
-        - "/usr/bin"
-        - "/usr/bin/site_perl"
-        - "/usr/bin/vendor_perl"
-        - "/usr/bin/core_perl"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "/usr/local"
-        - "/usr"
-        - "/"
-        - "/usr"
-        - "/usr/local"
-        - "/usr/X11R6"
-        - "/usr/pkg"
-        - "/opt"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:761 (find_library)"
-      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:811 (_pkg_find_libs)"
-      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
-      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
-      - "/usr/share/cmake/Modules/FindCURL.cmake:191 (pkg_check_modules)"
-      - "CMakeLists.txt:6 (find_package)"
-    mode: "library"
-    variable: "pkgcfg_lib_PC_CURL_curl"
-    description: "Path to a library."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "curl"
-    candidate_directories:
-      - "/usr/lib/"
-    found: "/usr/lib/libcurl.so"
-    search_context:
-      ENV{PATH}:
         - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
-        - "/usr/bin/site_perl"
-        - "/usr/bin/vendor_perl"
-        - "/usr/bin/core_perl"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "/usr/local"
-        - "/usr"
-        - "/"
-        - "/usr"
-        - "/usr/local"
-        - "/usr/X11R6"
-        - "/usr/pkg"
-        - "/opt"
-      CMAKE_SYSTEM_LIBRARY_PATH:
-        - "/usr/lib/X11"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/usr/share/cmake/Modules/FindCURL.cmake:201 (find_path)"
-      - "CMakeLists.txt:6 (find_package)"
-    mode: "path"
-    variable: "CURL_INCLUDE_DIR"
-    description: "Path to a file."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "curl/curl.h"
-    candidate_directories:
-      - "/usr/include/"
-      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/usr/local/sbin/"
-      - "/usr/local/bin/"
-      - "/usr/bin/"
-      - "/usr/bin/site_perl/"
-      - "/usr/bin/vendor_perl/"
-      - "/usr/bin/core_perl/"
-      - "/usr/local/include/"
-      - "/usr/local/"
-      - "/usr/include/"
-      - "/usr/"
-      - "/include/"
-      - "/usr/X11R6/include/"
-      - "/usr/X11R6/"
-      - "/usr/pkg/include/"
-      - "/usr/pkg/"
-      - "/opt/include/"
-      - "/opt/"
-      - "/usr/include/X11/"
-    found: "/usr/include/"
-    search_context:
-      ENV{PATH}:
-        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/bin"
         - "/usr/local/sbin"
-        - "/usr/local/bin"
-        - "/usr/bin"
-        - "/usr/bin/site_perl"
-        - "/usr/bin/vendor_perl"
-        - "/usr/bin/core_perl"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "/usr/local"
-        - "/usr"
-        - "/"
-        - "/usr"
-        - "/usr/local"
-        - "/usr/X11R6"
-        - "/usr/pkg"
-        - "/opt"
-      CMAKE_SYSTEM_INCLUDE_PATH:
-        - "/usr/include/X11"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/usr/share/cmake/Modules/FindCURL.cmake:208 (find_library)"
-      - "CMakeLists.txt:6 (find_package)"
-    mode: "library"
-    variable: "CURL_LIBRARY_RELEASE"
-    description: "Path to a library."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "curl"
-      - "curllib"
-      - "libcurl_imp"
-      - "curllib_static"
-      - "libcurl"
-      - "libcurl_a"
-    candidate_directories:
-      - "/usr/lib/"
-      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/usr/local/sbin/"
-      - "/usr/local/bin/"
-      - "/usr/bin/"
-      - "/usr/bin/site_perl/"
-      - "/usr/bin/vendor_perl/"
-      - "/usr/bin/core_perl/"
-      - "/usr/local/lib/"
-      - "/usr/local/"
-      - "/usr/lib/"
-      - "/usr/"
-      - "/lib/"
-      - "/usr/X11R6/lib/"
-      - "/usr/X11R6/"
-      - "/usr/pkg/lib/"
-      - "/usr/pkg/"
-      - "/opt/lib/"
-      - "/opt/"
-      - "/usr/lib/X11/"
-    found: "/usr/lib/libcurl.so"
-    search_context:
-      ENV{PATH}:
-        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/usr/local/sbin"
-        - "/usr/local/bin"
-        - "/usr/bin"
-        - "/usr/bin/site_perl"
-        - "/usr/bin/vendor_perl"
-        - "/usr/bin/core_perl"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "/usr/local"
-        - "/usr"
-        - "/"
-        - "/usr"
-        - "/usr/local"
-        - "/usr/X11R6"
-        - "/usr/pkg"
-        - "/opt"
-      CMAKE_SYSTEM_LIBRARY_PATH:
-        - "/usr/lib/X11"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/usr/share/cmake/Modules/FindCURL.cmake:223 (find_library)"
-      - "CMakeLists.txt:6 (find_package)"
-    mode: "library"
-    variable: "CURL_LIBRARY_DEBUG"
-    description: "Path to a library."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "libcurl-d_imp"
-      - "libcurl-d"
-    candidate_directories:
-      - "/usr/lib/"
-      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/usr/local/sbin/"
-      - "/usr/local/bin/"
-      - "/usr/bin/"
-      - "/usr/bin/site_perl/"
-      - "/usr/bin/vendor_perl/"
-      - "/usr/bin/core_perl/"
-      - "/usr/local/lib/"
-      - "/usr/local/"
-      - "/usr/lib/"
-      - "/usr/"
-      - "/lib/"
-      - "/usr/X11R6/lib/"
-      - "/usr/X11R6/"
-      - "/usr/pkg/lib/"
-      - "/usr/pkg/"
-      - "/opt/lib/"
-      - "/opt/"
-      - "/usr/lib/X11/"
-    searched_directories:
-      - "/usr/lib/"
-      - "/usr/lib/"
-      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/usr/local/sbin/"
-      - "/usr/local/sbin/"
-      - "/usr/local/bin/"
-      - "/usr/local/bin/"
-      - "/usr/bin/"
-      - "/usr/bin/"
-      - "/usr/bin/site_perl/"
-      - "/usr/bin/site_perl/"
-      - "/usr/bin/vendor_perl/"
-      - "/usr/bin/vendor_perl/"
-      - "/usr/bin/core_perl/"
-      - "/usr/bin/core_perl/"
-      - "/usr/local/lib/"
-      - "/usr/local/lib/"
-      - "/usr/local/"
-      - "/usr/local/"
-      - "/usr/lib/"
-      - "/usr/lib/"
-      - "/usr/"
-      - "/usr/"
-      - "/lib/"
-      - "/lib/"
-      - "/usr/X11R6/lib/"
-      - "/usr/X11R6/lib/"
-      - "/usr/X11R6/"
-      - "/usr/X11R6/"
-      - "/usr/pkg/lib/"
-      - "/usr/pkg/lib/"
-      - "/usr/pkg/"
-      - "/usr/pkg/"
-      - "/opt/lib/"
-      - "/opt/lib/"
-      - "/opt/"
-      - "/opt/"
-      - "/usr/lib/X11/"
-      - "/usr/lib/X11/"
-    found: false
-    search_context:
-      ENV{PATH}:
-        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/home/remxs2k/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/usr/local/sbin"
-        - "/usr/local/bin"
-        - "/usr/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"

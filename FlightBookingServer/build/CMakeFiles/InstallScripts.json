@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/remxs2k/UMFST/Artefly/FlightBookingServer/build/cmake_install.cmake"
+		"/home/remxs2k/UMFST/ArteFly/FlightBookingServer/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

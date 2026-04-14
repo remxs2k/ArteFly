@@ -1,62 +1,66 @@
 #include <sqlite3.h>
 #include <iostream>
+#include "db.h"
 
 using namespace std;
 
 
 void initDatabase(sqlite3* db){
-    const char* createTable = R"(
-        CREATE TABLE IF NOT EXISTS flights (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
+    const char* cacheTable = R"(
+        CREATE TABLE IF NOT EXISTS cache (
+            id  INTEGER PRIMARY KEY AUTOINCREMENT,
             from_city TEXT NOT NULL,
             to_city TEXT NOT NULL,
-            departure TEXT NOT NULL,
-            arrival TEXT NOT NULL,
-            price REAL NOT NULL,
-            airline TEXT NOT NULL,
-            seats INTEGER NOT NULL
-
+            date TEXT NOT NULL,
+            result TEXT NOT NULL,
+            time TEXT NOT NULL
         );
+        
+    )";
+    sqlite3_exec(db, cacheTable, nullptr, nullptr, nullptr);
+}
+
+
+
+string getCachedResults(sqlite3* db, const string& from, const string& to, const string& date){
+    time_t refresh = time(0) - 900; // 15 min
+
+    const char* query = R"(
+        SELECT result FROM cache
+        WHERE from_city = ? AND to_city = ? AND date = ? AND time > ?
+        ORDER BY time DESC LIMIT 1
     )";
 
-    int rc = sqlite3_exec(db, createTable, nullptr, nullptr, nullptr);
-
-    const char* checkEmpty = "SELECT COUNT(*) FROM flights";
     sqlite3_stmt* stmt;
-    sqlite3_prepare_v2(db, checkEmpty, -1, &stmt, nullptr);
-    sqlite3_step(stmt);
-    int count = sqlite3_column_int(stmt, 0);
+    sqlite3_prepare_v2(db, query, -1, &stmt, nullptr);
+    sqlite3_bind_text(stmt, 1, from.c_str(), -1, SQLITE_STATIC);
+    sqlite3_bind_text(stmt, 2, to.c_str(),   -1, SQLITE_STATIC);
+    sqlite3_bind_text(stmt, 3, date.c_str(), -1, SQLITE_STATIC);
+    sqlite3_bind_int (stmt, 4, (int)refresh);
+
+    string result;
+    if(sqlite3_step(stmt) == SQLITE_ROW){
+        result = (const char*)sqlite3_column_text(stmt, 0);
+    }
+
     sqlite3_finalize(stmt);
+    return result;
+}
 
-    if(count > 0) return;
-
-    const char* insertFlights = R"(
-        INSERT INTO flights(from_city, to_city, departure, arrival, price, airline, seats) VALUES
-        ('London',    'Paris',     '01:00', '03:00', 200.0, 'Lufthansa', 60),
-        ('London',    'Paris',     '08:00', '10:00', 120.00, 'WizzAir',  50),
-        ('London',    'Paris',     '14:00', '16:00',  95.00, 'EasyJet',    30),
-        ('Paris',     'Rome',      '09:00', '11:30', 150.00, 'Tarom',   40),
-        ('Rome',      'Berlin',    '13:00', '15:30', 110.00, 'Lufthansa',  60),
-        ('Berlin',    'Madrid',    '07:00', '10:00', 200.00, 'WizzAir',     45),
-        ('Madrid',    'Lisbon',    '11:00', '12:00',  60.00, 'KLM',    55),
-        ('Amsterdam', 'London',    '06:00', '07:00',  80.00, 'KLM',        35),
-        ('London',    'Amsterdam', '16:00', '17:00',  85.00, 'KLM',        35);
+void cacheResult(sqlite3* db, const string& from, const string& to, const string& date, const string& result) {
+    const char* query = R"(
+        INSERT INTO cache(from_city, to_city, date, result, time)
+        VALUES(?, ?, ?, ?, ?)
     )";
 
-    rc = sqlite3_exec(db, insertFlights, nullptr, nullptr, nullptr);
+    sqlite3_stmt* stmt;
+    sqlite3_prepare_v2(db, query, -1, &stmt, nullptr);
+    sqlite3_bind_text(stmt, 1, from.c_str(),   -1, SQLITE_STATIC);
+    sqlite3_bind_text(stmt, 2, to.c_str(),     -1, SQLITE_STATIC);
+    sqlite3_bind_text(stmt, 3, date.c_str(),   -1, SQLITE_STATIC);
+    sqlite3_bind_text(stmt, 4, result.c_str(), -1, SQLITE_STATIC);
+    sqlite3_bind_int (stmt, 5, (int)time(0));
 
-    const char* bookings = R"(
-        CREATE TABLE IF NOT EXISTS bookings (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
-            flight_id TEXT NOT NULL,
-            passenger_name TEXT NOT NULL,
-            email TEXT NOT NULL,
-            seats INTEGER NOT NULL,
-            booking_date NOT NULL,
-            FOREIGN KEY(flight_id) REFERENCES flights(id)
-        );
-    )";
-
-    sqlite3_exec(db, bookings, nullptr, nullptr, nullptr);
-
+    sqlite3_step(stmt);
+    sqlite3_finalize(stmt);
 }

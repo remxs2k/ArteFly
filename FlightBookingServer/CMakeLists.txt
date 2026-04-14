@@ -11,8 +11,8 @@ find_package(SQLite3 REQUIRED)
 include_directories(${SQLite3_INCLUDE_DIRS})
 
 include_directories(
-    libs/crow/include
-    include
+    /home/remxs2k/UMFST/ArteFly/FlightBookingServer/libs/crow/include
+    /home/remxs2k/UMFST/ArteFly/FlightBookingServer/include
 )
 
 add_definitions(-DCROW_USE_BOOST)

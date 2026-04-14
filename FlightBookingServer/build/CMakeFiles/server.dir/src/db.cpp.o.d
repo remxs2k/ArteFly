@@ -1,5 +1,5 @@
 CMakeFiles/server.dir/src/db.cpp.o: \
- /home/remxs2k/UMFST/Artefly/FlightBookingServer/src/db.cpp \
+ /home/remxs2k/UMFST/ArteFly/FlightBookingServer/src/db.cpp \
  /usr/include/stdc-predef.h /usr/include/sqlite3.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
  /usr/include/c++/15.2.1/iostream \
@@ -145,4 +145,5 @@ CMakeFiles/server.dir/src/db.cpp.o: \
  /usr/include/c++/15.2.1/bits/locale_facets.tcc \
  /usr/include/c++/15.2.1/bits/basic_ios.tcc \
  /usr/include/c++/15.2.1/bits/ostream.tcc /usr/include/c++/15.2.1/istream \
- /usr/include/c++/15.2.1/bits/istream.tcc
+ /usr/include/c++/15.2.1/bits/istream.tcc \
+ /home/remxs2k/UMFST/ArteFly/FlightBookingServer/include/db.h

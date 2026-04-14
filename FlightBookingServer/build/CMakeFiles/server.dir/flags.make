@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DCROW_USE_BOOST
 
-CXX_INCLUDES = -I/home/remxs2k/UMFST/Artefly/FlightBookingServer/libs/crow/include -I/home/remxs2k/UMFST/Artefly/FlightBookingServer/include
+CXX_INCLUDES = -I/home/remxs2k/UMFST/ArteFly/FlightBookingServer/libs/crow/include -I/home/remxs2k/UMFST/ArteFly/FlightBookingServer/include
 
-CXX_FLAGS = -std=gnu++17
+CXX_FLAGS = -std=gnu++17 -DWITH_GZFILEOP
 

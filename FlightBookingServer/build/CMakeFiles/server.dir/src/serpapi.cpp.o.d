@@ -1,7 +1,7 @@
 CMakeFiles/server.dir/src/serpapi.cpp.o: \
- /home/remxs2k/UMFST/Artefly/FlightBookingServer/src/serpapi.cpp \
+ /home/remxs2k/UMFST/ArteFly/FlightBookingServer/src/serpapi.cpp \
  /usr/include/stdc-predef.h \
- /home/remxs2k/UMFST/Artefly/FlightBookingServer/include/serpapi.h \
+ /home/remxs2k/UMFST/ArteFly/FlightBookingServer/include/serpapi.h \
  /usr/include/c++/15.2.1/string \
  /usr/include/c++/15.2.1/bits/requires_hosted.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h \

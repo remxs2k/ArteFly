@@ -33,37 +33,46 @@ int main(){
             return crow::response(400, "Missing parameters");
         }
 
-
-        std::string fromCode = getIATA(from);
-        std::string toCode   = getIATA(to);
+        string fromCode = getIATA(from);
+        string toCode   = getIATA(to);
 
         if(fromCode.empty() || toCode.empty()){
             return crow::response(400, "Unknown city name");
         }
 
-    
-        const char* apiKey = std::getenv("SERPAPI_KEY");
+        
+        string cached = getCachedResults(db, fromCode, toCode, date);
+        if(!cached.empty()){
+            cout << "Returning cached result" << endl;
+            crow::response res(cached);
+            res.add_header("Content-Type", "application/json");
+            return res;
+        }
+
+        
+        const char* apiKey = getenv("SERPAPI_KEY");
         if(!apiKey){
             return crow::response(500, "API key not configured");
         }
-        //std::string rawResponse = searchFlights(fromCode, toCode, date, apiKey);
 
-        std::string rawResponse = searchFlights(fromCode, toCode, date, apiKey);
-        std::cout << "SerpApi raw response: " << rawResponse << std::endl;
+        string rawResponse = searchFlights(fromCode, toCode, date, apiKey);
 
-        // Parse the response
         auto serpData = json::parse(rawResponse, nullptr, false);
         if(serpData.is_discarded()){
-            return crow::response(500, "Failed to parse flight data");
+            return crow::response(500, "Failed");
         }
 
-        // Extract best_flights or other_flights
         json result;
         result["flights"] = json::array();
 
         auto extractFlights = [&](const std::string& key){
             if(!serpData.contains(key)) return;
             for(auto& f : serpData[key]){
+                string depId = f["flights"][0].value("departure_airport", json::object()).value("id", "");
+                std::string arrId = f["flights"][0].value("arrival_airport", json::object()).value("id", "");
+
+                if(depId != fromCode || arrId != toCode) continue;
+
                 json flight;
                 flight["price"]    = f.value("price", 0);
                 flight["airline"]  = f["flights"][0].value("airline", "Unknown");
@@ -78,6 +87,8 @@ int main(){
 
         extractFlights("best_flights");
         extractFlights("other_flights");
+
+        cacheResult(db, fromCode, toCode, date, result.dump());
 
         crow::response res(result.dump());
         res.add_header("Content-Type", "application/json");

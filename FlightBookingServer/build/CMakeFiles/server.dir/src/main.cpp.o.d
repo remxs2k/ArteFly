@@ -1,8 +1,8 @@
 CMakeFiles/server.dir/src/main.cpp.o: \
- /home/remxs2k/UMFST/Artefly/FlightBookingServer/src/main.cpp \
+ /home/remxs2k/UMFST/ArteFly/FlightBookingServer/src/main.cpp \
  /usr/include/stdc-predef.h \
- /home/remxs2k/UMFST/Artefly/FlightBookingServer/libs/crow/include/crow.h \
- /home/remxs2k/UMFST/Artefly/FlightBookingServer/libs/crow/include/crow/query_string.h \
+ /home/remxs2k/UMFST/ArteFly/FlightBookingServer/libs/crow/include/crow.h \
+ /home/remxs2k/UMFST/ArteFly/FlightBookingServer/libs/crow/include/crow/query_string.h \
  /usr/include/stdio.h /usr/include/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/bits/wordsize.h /usr/include/bits/timesize.h \
@@ -174,7 +174,7 @@ CMakeFiles/server.dir/src/main.cpp.o: \
  /usr/include/c++/15.2.1/backward/auto_ptr.h \
  /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
  /usr/include/c++/15.2.1/pstl/execution_defs.h \
- /home/remxs2k/UMFST/Artefly/FlightBookingServer/libs/crow/include/crow/http_parser_merged.h \
+ /home/remxs2k/UMFST/ArteFly/FlightBookingServer/libs/crow/include/crow/http_parser_merged.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/stdint-uintn.h \
  /usr/include/bits/stdint-least.h /usr/include/assert.h \
@@ -184,8 +184,8 @@ CMakeFiles/server.dir/src/main.cpp.o: \
  /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
  /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
  /usr/include/bits/uio_lim.h \
- /home/remxs2k/UMFST/Artefly/FlightBookingServer/libs/crow/include/crow/common.h \
- /home/remxs2k/UMFST/Artefly/FlightBookingServer/libs/crow/include/crow/utility.h \
+ /home/remxs2k/UMFST/ArteFly/FlightBookingServer/libs/crow/include/crow/common.h \
+ /home/remxs2k/UMFST/ArteFly/FlightBookingServer/libs/crow/include/crow/utility.h \
  /usr/include/c++/15.2.1/cstdint /usr/include/c++/15.2.1/cstring \
  /usr/include/c++/15.2.1/functional \
  /usr/include/c++/15.2.1/bits/std_function.h \
@@ -222,7 +222,7 @@ CMakeFiles/server.dir/src/main.cpp.o: \
  /usr/include/c++/15.2.1/bits/algorithmfwd.h \
  /usr/include/c++/15.2.1/bits/stl_heap.h \
  /usr/include/c++/15.2.1/pstl/glue_algorithm_defs.h \
- /home/remxs2k/UMFST/Artefly/FlightBookingServer/libs/crow/include/crow/settings.h \
+ /home/remxs2k/UMFST/ArteFly/FlightBookingServer/libs/crow/include/crow/settings.h \
  /usr/include/c++/15.2.1/filesystem /usr/include/c++/15.2.1/bits/fs_fwd.h \
  /usr/include/c++/15.2.1/bits/chrono.h /usr/include/c++/15.2.1/ratio \
  /usr/include/c++/15.2.1/ctime \
@@ -238,9 +238,9 @@ CMakeFiles/server.dir/src/main.cpp.o: \
  /usr/include/c++/15.2.1/bits/quoted_string.h \
  /usr/include/c++/15.2.1/codecvt /usr/include/c++/15.2.1/bits/fs_dir.h \
  /usr/include/c++/15.2.1/bits/fs_ops.h \
- /home/remxs2k/UMFST/Artefly/FlightBookingServer/libs/crow/include/crow/ci_map.h \
- /home/remxs2k/UMFST/Artefly/FlightBookingServer/libs/crow/include/crow/TinySHA1.hpp \
- /home/remxs2k/UMFST/Artefly/FlightBookingServer/libs/crow/include/crow/socket_adaptors.h \
+ /home/remxs2k/UMFST/ArteFly/FlightBookingServer/libs/crow/include/crow/ci_map.h \
+ /home/remxs2k/UMFST/ArteFly/FlightBookingServer/libs/crow/include/crow/TinySHA1.hpp \
+ /home/remxs2k/UMFST/ArteFly/FlightBookingServer/libs/crow/include/crow/socket_adaptors.h \
  /usr/include/boost/asio.hpp \
  /usr/include/boost/asio/any_completion_executor.hpp \
  /usr/include/boost/asio/detail/config.hpp /usr/include/boost/config.hpp \
@@ -775,43 +775,43 @@ CMakeFiles/server.dir/src/main.cpp.o: \
  /usr/include/boost/asio/writable_pipe.hpp \
  /usr/include/boost/asio/write_at.hpp \
  /usr/include/boost/asio/impl/write_at.hpp \
- /home/remxs2k/UMFST/Artefly/FlightBookingServer/libs/crow/include/crow/socket_acceptors.h \
- /home/remxs2k/UMFST/Artefly/FlightBookingServer/libs/crow/include/crow/logging.h \
- /home/remxs2k/UMFST/Artefly/FlightBookingServer/libs/crow/include/crow/json.h \
+ /home/remxs2k/UMFST/ArteFly/FlightBookingServer/libs/crow/include/crow/socket_acceptors.h \
+ /home/remxs2k/UMFST/ArteFly/FlightBookingServer/libs/crow/include/crow/logging.h \
+ /home/remxs2k/UMFST/ArteFly/FlightBookingServer/libs/crow/include/crow/json.h \
  /usr/include/c++/15.2.1/cfloat \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/float.h \
- /home/remxs2k/UMFST/Artefly/FlightBookingServer/libs/crow/include/crow/returnable.h \
- /home/remxs2k/UMFST/Artefly/FlightBookingServer/libs/crow/include/crow/mustache.h \
+ /home/remxs2k/UMFST/ArteFly/FlightBookingServer/libs/crow/include/crow/returnable.h \
+ /home/remxs2k/UMFST/ArteFly/FlightBookingServer/libs/crow/include/crow/mustache.h \
  /usr/include/c++/15.2.1/fstream \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/basic_file.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++io.h \
  /usr/include/c++/15.2.1/bits/fstream.tcc \
- /home/remxs2k/UMFST/Artefly/FlightBookingServer/libs/crow/include/crow/task_timer.h \
+ /home/remxs2k/UMFST/ArteFly/FlightBookingServer/libs/crow/include/crow/task_timer.h \
  /usr/include/c++/15.2.1/map /usr/include/c++/15.2.1/bits/stl_tree.h \
  /usr/include/c++/15.2.1/bits/stl_map.h \
  /usr/include/c++/15.2.1/bits/stl_multimap.h \
- /home/remxs2k/UMFST/Artefly/FlightBookingServer/libs/crow/include/crow/http_request.h \
- /home/remxs2k/UMFST/Artefly/FlightBookingServer/libs/crow/include/crow/websocket.h \
+ /home/remxs2k/UMFST/ArteFly/FlightBookingServer/libs/crow/include/crow/http_request.h \
+ /home/remxs2k/UMFST/ArteFly/FlightBookingServer/libs/crow/include/crow/websocket.h \
  /usr/include/c++/15.2.1/optional /usr/include/c++/15.2.1/thread \
  /usr/include/c++/15.2.1/bits/this_thread_sleep.h \
- /home/remxs2k/UMFST/Artefly/FlightBookingServer/libs/crow/include/crow/http_response.h \
- /home/remxs2k/UMFST/Artefly/FlightBookingServer/libs/crow/include/crow/mime_types.h \
- /home/remxs2k/UMFST/Artefly/FlightBookingServer/libs/crow/include/crow/TinySHA1.hpp \
- /home/remxs2k/UMFST/Artefly/FlightBookingServer/libs/crow/include/crow/parser.h \
- /home/remxs2k/UMFST/Artefly/FlightBookingServer/libs/crow/include/crow/multipart.h \
- /home/remxs2k/UMFST/Artefly/FlightBookingServer/libs/crow/include/crow/exceptions.h \
- /home/remxs2k/UMFST/Artefly/FlightBookingServer/libs/crow/include/crow/multipart_view.h \
+ /home/remxs2k/UMFST/ArteFly/FlightBookingServer/libs/crow/include/crow/http_response.h \
+ /home/remxs2k/UMFST/ArteFly/FlightBookingServer/libs/crow/include/crow/mime_types.h \
+ /home/remxs2k/UMFST/ArteFly/FlightBookingServer/libs/crow/include/crow/TinySHA1.hpp \
+ /home/remxs2k/UMFST/ArteFly/FlightBookingServer/libs/crow/include/crow/parser.h \
+ /home/remxs2k/UMFST/ArteFly/FlightBookingServer/libs/crow/include/crow/multipart.h \
+ /home/remxs2k/UMFST/ArteFly/FlightBookingServer/libs/crow/include/crow/exceptions.h \
+ /home/remxs2k/UMFST/ArteFly/FlightBookingServer/libs/crow/include/crow/multipart_view.h \
  /usr/include/c++/15.2.1/charconv \
- /home/remxs2k/UMFST/Artefly/FlightBookingServer/libs/crow/include/crow/routing.h \
- /home/remxs2k/UMFST/Artefly/FlightBookingServer/libs/crow/include/crow/middleware.h \
- /home/remxs2k/UMFST/Artefly/FlightBookingServer/libs/crow/include/crow/middleware_context.h \
- /home/remxs2k/UMFST/Artefly/FlightBookingServer/libs/crow/include/crow/compression.h \
- /home/remxs2k/UMFST/Artefly/FlightBookingServer/libs/crow/include/crow/http_connection.h \
- /home/remxs2k/UMFST/Artefly/FlightBookingServer/libs/crow/include/crow/compression.h \
- /home/remxs2k/UMFST/Artefly/FlightBookingServer/libs/crow/include/crow/http_server.h \
- /home/remxs2k/UMFST/Artefly/FlightBookingServer/libs/crow/include/crow/version.h \
- /home/remxs2k/UMFST/Artefly/FlightBookingServer/libs/crow/include/crow/app.h \
- /home/remxs2k/UMFST/Artefly/FlightBookingServer/include/json.hpp \
+ /home/remxs2k/UMFST/ArteFly/FlightBookingServer/libs/crow/include/crow/routing.h \
+ /home/remxs2k/UMFST/ArteFly/FlightBookingServer/libs/crow/include/crow/middleware.h \
+ /home/remxs2k/UMFST/ArteFly/FlightBookingServer/libs/crow/include/crow/middleware_context.h \
+ /home/remxs2k/UMFST/ArteFly/FlightBookingServer/libs/crow/include/crow/compression.h \
+ /home/remxs2k/UMFST/ArteFly/FlightBookingServer/libs/crow/include/crow/http_connection.h \
+ /home/remxs2k/UMFST/ArteFly/FlightBookingServer/libs/crow/include/crow/compression.h \
+ /home/remxs2k/UMFST/ArteFly/FlightBookingServer/libs/crow/include/crow/http_server.h \
+ /home/remxs2k/UMFST/ArteFly/FlightBookingServer/libs/crow/include/crow/version.h \
+ /home/remxs2k/UMFST/ArteFly/FlightBookingServer/libs/crow/include/crow/app.h \
+ /home/remxs2k/UMFST/ArteFly/FlightBookingServer/include/json.hpp \
  /usr/include/c++/15.2.1/forward_list \
  /usr/include/c++/15.2.1/bits/forward_list.h \
  /usr/include/c++/15.2.1/bits/forward_list.tcc \
@@ -825,7 +825,7 @@ CMakeFiles/server.dir/src/main.cpp.o: \
  /usr/include/c++/15.2.1/bits/gslice_array.h \
  /usr/include/c++/15.2.1/bits/mask_array.h \
  /usr/include/c++/15.2.1/bits/indirect_array.h \
- /home/remxs2k/UMFST/Artefly/FlightBookingServer/include/db.h \
+ /home/remxs2k/UMFST/ArteFly/FlightBookingServer/include/db.h \
  /usr/include/sqlite3.h \
- /home/remxs2k/UMFST/Artefly/FlightBookingServer/include/airports.h \
- /home/remxs2k/UMFST/Artefly/FlightBookingServer/include/serpapi.h
+ /home/remxs2k/UMFST/ArteFly/FlightBookingServer/include/airports.h \
+ /home/remxs2k/UMFST/ArteFly/FlightBookingServer/include/serpapi.h

@@ -22,7 +22,7 @@ void initDatabase(sqlite3* db){
 
 
 
-string getCachedResults(sqlite3* db, const string& from, const string& to, const string& date){
+string getCachedResults(sqlite3* db, const string& from_city, const string& to_city, const string& date){
     time_t refresh = time(0) - 900; // 15 min
 
     const char* query = R"(
@@ -33,8 +33,8 @@ string getCachedResults(sqlite3* db, const string& from, const string& to, const
 
     sqlite3_stmt* stmt;
     sqlite3_prepare_v2(db, query, -1, &stmt, nullptr);
-    sqlite3_bind_text(stmt, 1, from.c_str(), -1, SQLITE_STATIC);
-    sqlite3_bind_text(stmt, 2, to.c_str(),   -1, SQLITE_STATIC);
+    sqlite3_bind_text(stmt, 1, from_city.c_str(), -1, SQLITE_STATIC);
+    sqlite3_bind_text(stmt, 2, to_city.c_str(),   -1, SQLITE_STATIC);
     sqlite3_bind_text(stmt, 3, date.c_str(), -1, SQLITE_STATIC);
     sqlite3_bind_int (stmt, 4, (int)refresh);
 
